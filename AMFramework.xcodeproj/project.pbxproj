@@ -84,7 +84,6 @@
 		EF249DFC1B8D8F220012C6F2 /* NSString+MD5String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5String.m"; path = "APFramework/NSString+MD5String.m"; sourceTree = "<group>"; };
 		EF249DFD1B8D8F230012C6F2 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLDictionary.h; path = APFramework/XMLDictionary.h; sourceTree = "<group>"; };
 		EF249DFE1B8D8F230012C6F2 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLDictionary.m; path = APFramework/XMLDictionary.m; sourceTree = "<group>"; };
-		EF249E111B8D949F0012C6F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/AMErrors.strings; sourceTree = "<group>"; };
 		EF249E131B8D95580012C6F2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/AMErrors.strings; sourceTree = "<group>"; };
 		EF249E141B8D95640012C6F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AMErrors.strings; sourceTree = "<group>"; };
 		EF6DBED11B8D365E00E8F055 /* AMResponseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMResponseTests.m; sourceTree = "<group>"; };
@@ -390,7 +389,6 @@
 		EF249E121B8D949F0012C6F2 /* AMErrors.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF249E111B8D949F0012C6F2 /* Base */,
 				EF249E131B8D95580012C6F2 /* ru */,
 				EF249E141B8D95640012C6F2 /* en */,
 			);
