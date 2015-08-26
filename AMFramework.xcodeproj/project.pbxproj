@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF6DBEC41B8B06B200E8F055 /* AMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244171B8ABB5A0017C137 /* AMConstants.m */; };
-		EF6DBEC71B8BF37600E8F055 /* NSDictionary+ContainsKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBEC61B8BF37600E8F055 /* NSDictionary+ContainsKey.m */; };
-		EF6DBEC91B8C3F0100E8F055 /* AMErrors.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF6DBEC81B8C3F0100E8F055 /* AMErrors.strings */; };
-		EF6DBECA1B8C4B3D00E8F055 /* AMURLSessionAPIImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244521B8AF77E0017C137 /* AMURLSessionAPIImplementation.m */; };
-		EF6DBECB1B8C4B5200E8F055 /* AMAPICommandsFacadeImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244421B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.m */; };
-		EF6DBECC1B8C4B5500E8F055 /* AMAbstractResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244351B8AF0DF0017C137 /* AMAbstractResponse.m */; };
-		EF6DBECD1B8C4B5800E8F055 /* AMPaymentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244381B8AF1880017C137 /* AMPaymentResponse.m */; };
-		EF6DBECE1B8C4B5A00E8F055 /* AMPaymentStatusResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2443B1B8AF2700017C137 /* AMPaymentStatusResponse.m */; };
+		EF249D921B8D8DC90012C6F2 /* AMAbstractResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D6E1B8D8DC90012C6F2 /* AMAbstractResponse.m */; };
+		EF249D931B8D8DC90012C6F2 /* AMAPICommand.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D711B8D8DC90012C6F2 /* AMAPICommand.m */; };
+		EF249D941B8D8DC90012C6F2 /* AMAPICommandsFacadeImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D751B8D8DC90012C6F2 /* AMAPICommandsFacadeImplementation.m */; };
+		EF249D951B8D8DC90012C6F2 /* AMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D771B8D8DC90012C6F2 /* AMConstants.m */; };
+		EF249D961B8D8DC90012C6F2 /* AMErrors.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF249D781B8D8DC90012C6F2 /* AMErrors.strings */; };
+		EF249D971B8D8DC90012C6F2 /* AMInitPayMkProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D7A1B8D8DC90012C6F2 /* AMInitPayMkProducer.m */; };
+		EF249D981B8D8DC90012C6F2 /* AMInitPayMkStatusProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D7C1B8D8DC90012C6F2 /* AMInitPayMkStatusProducer.m */; };
+		EF249D991B8D8DC90012C6F2 /* AMMerchantCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D7E1B8D8DC90012C6F2 /* AMMerchantCredentials.m */; };
+		EF249D9A1B8D8DC90012C6F2 /* AMPaymentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D801B8D8DC90012C6F2 /* AMPaymentRequest.m */; };
+		EF249D9B1B8D8DC90012C6F2 /* AMPaymentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D821B8D8DC90012C6F2 /* AMPaymentResponse.m */; };
+		EF249D9C1B8D8DC90012C6F2 /* AMPaymentStatusRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D841B8D8DC90012C6F2 /* AMPaymentStatusRequest.m */; };
+		EF249D9D1B8D8DC90012C6F2 /* AMPaymentStatusResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D861B8D8DC90012C6F2 /* AMPaymentStatusResponse.m */; };
+		EF249D9E1B8D8DC90012C6F2 /* AMSecurityUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D881B8D8DC90012C6F2 /* AMSecurityUtilities.m */; };
+		EF249D9F1B8D8DC90012C6F2 /* AMURLSessionAPIImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D8A1B8D8DC90012C6F2 /* AMURLSessionAPIImplementation.m */; };
+		EF249DA01B8D8DC90012C6F2 /* NSDictionary+ContainsKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D8D1B8D8DC90012C6F2 /* NSDictionary+ContainsKey.m */; };
+		EF249DA11B8D8DC90012C6F2 /* NSString+MD5String.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D8F1B8D8DC90012C6F2 /* NSString+MD5String.m */; };
+		EF249DA21B8D8DC90012C6F2 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249D911B8D8DC90012C6F2 /* XMLDictionary.m */; };
 		EF6DBED21B8D365E00E8F055 /* AMResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBED11B8D365E00E8F055 /* AMResponseTests.m */; };
 		EF6DBED51B8D38FE00E8F055 /* AMAPIProducersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBED41B8D38FE00E8F055 /* AMAPIProducersTest.m */; };
 		EF6DBED81B8D4A9900E8F055 /* AMAPIClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBED71B8D4A9900E8F055 /* AMAPIClientTests.m */; };
@@ -25,23 +34,7 @@
 		EFA243EA1B8A9B570017C137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA243E81B8A9B570017C137 /* Main.storyboard */; };
 		EFA243EC1B8A9B570017C137 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA243EB1B8A9B570017C137 /* Images.xcassets */; };
 		EFA243EF1B8A9B570017C137 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA243ED1B8A9B570017C137 /* LaunchScreen.xib */; };
-		EFA2440A1B8AA2620017C137 /* AMAPICommand.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244091B8AA2620017C137 /* AMAPICommand.m */; };
 		EFA2440D1B8AAF700017C137 /* AMAPICommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2440C1B8AAF700017C137 /* AMAPICommandTests.m */; };
-		EFA2440E1B8AB0700017C137 /* AMAPICommand.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244091B8AA2620017C137 /* AMAPICommand.m */; };
-		EFA244141B8ABAD70017C137 /* AMInitPayMkProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244131B8ABAD70017C137 /* AMInitPayMkProducer.m */; };
-		EFA244181B8ABB5A0017C137 /* AMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244171B8ABB5A0017C137 /* AMConstants.m */; };
-		EFA2441C1B8AC03F0017C137 /* AMMerchantCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2441B1B8AC03F0017C137 /* AMMerchantCredentials.m */; };
-		EFA244231B8AC0E30017C137 /* AMPaymentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244221B8AC0E30017C137 /* AMPaymentRequest.m */; };
-		EFA244261B8AD5420017C137 /* NSString+MD5String.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244251B8AD5420017C137 /* NSString+MD5String.m */; };
-		EFA2442B1B8ADBC40017C137 /* AMSecurityUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2442A1B8ADBC40017C137 /* AMSecurityUtilities.m */; };
-		EFA2442F1B8AE63E0017C137 /* AMPaymentStatusRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2442E1B8AE63E0017C137 /* AMPaymentStatusRequest.m */; };
-		EFA244321B8AE6AD0017C137 /* AMInitPayMkStatusProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244311B8AE6AD0017C137 /* AMInitPayMkStatusProducer.m */; };
-		EFA244361B8AF0DF0017C137 /* AMAbstractResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244351B8AF0DF0017C137 /* AMAbstractResponse.m */; };
-		EFA244391B8AF1880017C137 /* AMPaymentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244381B8AF1880017C137 /* AMPaymentResponse.m */; };
-		EFA2443C1B8AF2700017C137 /* AMPaymentStatusResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2443B1B8AF2700017C137 /* AMPaymentStatusResponse.m */; };
-		EFA244431B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244421B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.m */; };
-		EFA244531B8AF77E0017C137 /* AMURLSessionAPIImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244521B8AF77E0017C137 /* AMURLSessionAPIImplementation.m */; };
-		EFA244571B8B048A0017C137 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244561B8B048A0017C137 /* XMLDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +48,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF6066101B8D7D7300186BC9 /* ArsenalPayiOsSDK.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc.preprocessed; fileEncoding = 4; path = ArsenalPayiOsSDK.h; sourceTree = "<group>"; };
-		EF6DBEC51B8BF37600E8F055 /* NSDictionary+ContainsKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ContainsKey.h"; sourceTree = "<group>"; };
-		EF6DBEC61B8BF37600E8F055 /* NSDictionary+ContainsKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ContainsKey.m"; sourceTree = "<group>"; };
-		EF6DBEC81B8C3F0100E8F055 /* AMErrors.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = AMErrors.strings; sourceTree = "<group>"; };
+		EF249D6D1B8D8DC90012C6F2 /* AMAbstractResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAbstractResponse.h; sourceTree = "<group>"; };
+		EF249D6E1B8D8DC90012C6F2 /* AMAbstractResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAbstractResponse.m; sourceTree = "<group>"; };
+		EF249D6F1B8D8DC90012C6F2 /* AMAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPIClient.h; sourceTree = "<group>"; };
+		EF249D701B8D8DC90012C6F2 /* AMAPICommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPICommand.h; sourceTree = "<group>"; };
+		EF249D711B8D8DC90012C6F2 /* AMAPICommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPICommand.m; sourceTree = "<group>"; };
+		EF249D721B8D8DC90012C6F2 /* AMAPICommandProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPICommandProducer.h; sourceTree = "<group>"; };
+		EF249D731B8D8DC90012C6F2 /* AMAPICommandsFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPICommandsFacade.h; sourceTree = "<group>"; };
+		EF249D741B8D8DC90012C6F2 /* AMAPICommandsFacadeImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPICommandsFacadeImplementation.h; sourceTree = "<group>"; };
+		EF249D751B8D8DC90012C6F2 /* AMAPICommandsFacadeImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPICommandsFacadeImplementation.m; sourceTree = "<group>"; };
+		EF249D761B8D8DC90012C6F2 /* AMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMConstants.h; sourceTree = "<group>"; };
+		EF249D771B8D8DC90012C6F2 /* AMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMConstants.m; sourceTree = "<group>"; };
+		EF249D781B8D8DC90012C6F2 /* AMErrors.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = AMErrors.strings; sourceTree = "<group>"; };
+		EF249D791B8D8DC90012C6F2 /* AMInitPayMkProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMInitPayMkProducer.h; sourceTree = "<group>"; };
+		EF249D7A1B8D8DC90012C6F2 /* AMInitPayMkProducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMInitPayMkProducer.m; sourceTree = "<group>"; };
+		EF249D7B1B8D8DC90012C6F2 /* AMInitPayMkStatusProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMInitPayMkStatusProducer.h; sourceTree = "<group>"; };
+		EF249D7C1B8D8DC90012C6F2 /* AMInitPayMkStatusProducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMInitPayMkStatusProducer.m; sourceTree = "<group>"; };
+		EF249D7D1B8D8DC90012C6F2 /* AMMerchantCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMerchantCredentials.h; sourceTree = "<group>"; };
+		EF249D7E1B8D8DC90012C6F2 /* AMMerchantCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMMerchantCredentials.m; sourceTree = "<group>"; };
+		EF249D7F1B8D8DC90012C6F2 /* AMPaymentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPaymentRequest.h; sourceTree = "<group>"; };
+		EF249D801B8D8DC90012C6F2 /* AMPaymentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPaymentRequest.m; sourceTree = "<group>"; };
+		EF249D811B8D8DC90012C6F2 /* AMPaymentResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPaymentResponse.h; sourceTree = "<group>"; };
+		EF249D821B8D8DC90012C6F2 /* AMPaymentResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPaymentResponse.m; sourceTree = "<group>"; };
+		EF249D831B8D8DC90012C6F2 /* AMPaymentStatusRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPaymentStatusRequest.h; sourceTree = "<group>"; };
+		EF249D841B8D8DC90012C6F2 /* AMPaymentStatusRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPaymentStatusRequest.m; sourceTree = "<group>"; };
+		EF249D851B8D8DC90012C6F2 /* AMPaymentStatusResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPaymentStatusResponse.h; sourceTree = "<group>"; };
+		EF249D861B8D8DC90012C6F2 /* AMPaymentStatusResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPaymentStatusResponse.m; sourceTree = "<group>"; };
+		EF249D871B8D8DC90012C6F2 /* AMSecurityUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSecurityUtilities.h; sourceTree = "<group>"; };
+		EF249D881B8D8DC90012C6F2 /* AMSecurityUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSecurityUtilities.m; sourceTree = "<group>"; };
+		EF249D891B8D8DC90012C6F2 /* AMURLSessionAPIImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMURLSessionAPIImplementation.h; sourceTree = "<group>"; };
+		EF249D8A1B8D8DC90012C6F2 /* AMURLSessionAPIImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMURLSessionAPIImplementation.m; sourceTree = "<group>"; };
+		EF249D8B1B8D8DC90012C6F2 /* ArsenalPayiOsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArsenalPayiOsSDK.h; sourceTree = "<group>"; };
+		EF249D8C1B8D8DC90012C6F2 /* NSDictionary+ContainsKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ContainsKey.h"; sourceTree = "<group>"; };
+		EF249D8D1B8D8DC90012C6F2 /* NSDictionary+ContainsKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ContainsKey.m"; sourceTree = "<group>"; };
+		EF249D8E1B8D8DC90012C6F2 /* NSString+MD5String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5String.h"; sourceTree = "<group>"; };
+		EF249D8F1B8D8DC90012C6F2 /* NSString+MD5String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5String.m"; sourceTree = "<group>"; };
+		EF249D901B8D8DC90012C6F2 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		EF249D911B8D8DC90012C6F2 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
 		EF6DBED11B8D365E00E8F055 /* AMResponseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMResponseTests.m; sourceTree = "<group>"; };
 		EF6DBED41B8D38FE00E8F055 /* AMAPIProducersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPIProducersTest.m; sourceTree = "<group>"; };
 		EF6DBED71B8D4A9900E8F055 /* AMAPIClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPIClientTests.m; sourceTree = "<group>"; };
@@ -75,40 +101,7 @@
 		EFA243EE1B8A9B570017C137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EFA243F41B8A9B580017C137 /* AMFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA243F91B8A9B580017C137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFA244081B8AA2620017C137 /* AMAPICommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPICommand.h; sourceTree = "<group>"; };
-		EFA244091B8AA2620017C137 /* AMAPICommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPICommand.m; sourceTree = "<group>"; };
 		EFA2440C1B8AAF700017C137 /* AMAPICommandTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPICommandTests.m; sourceTree = "<group>"; };
-		EFA2440F1B8AB9F40017C137 /* AMAPICommandProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPICommandProducer.h; sourceTree = "<group>"; };
-		EFA244121B8ABAD70017C137 /* AMInitPayMkProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMInitPayMkProducer.h; sourceTree = "<group>"; };
-		EFA244131B8ABAD70017C137 /* AMInitPayMkProducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMInitPayMkProducer.m; sourceTree = "<group>"; };
-		EFA244161B8ABB5A0017C137 /* AMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMConstants.h; sourceTree = "<group>"; };
-		EFA244171B8ABB5A0017C137 /* AMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMConstants.m; sourceTree = "<group>"; };
-		EFA2441A1B8AC03F0017C137 /* AMMerchantCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMerchantCredentials.h; sourceTree = "<group>"; };
-		EFA2441B1B8AC03F0017C137 /* AMMerchantCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMMerchantCredentials.m; sourceTree = "<group>"; };
-		EFA244211B8AC0E30017C137 /* AMPaymentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPaymentRequest.h; sourceTree = "<group>"; };
-		EFA244221B8AC0E30017C137 /* AMPaymentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPaymentRequest.m; sourceTree = "<group>"; };
-		EFA244241B8AD5420017C137 /* NSString+MD5String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5String.h"; sourceTree = "<group>"; };
-		EFA244251B8AD5420017C137 /* NSString+MD5String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5String.m"; sourceTree = "<group>"; };
-		EFA244291B8ADBC40017C137 /* AMSecurityUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSecurityUtilities.h; sourceTree = "<group>"; };
-		EFA2442A1B8ADBC40017C137 /* AMSecurityUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSecurityUtilities.m; sourceTree = "<group>"; };
-		EFA2442D1B8AE63E0017C137 /* AMPaymentStatusRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPaymentStatusRequest.h; sourceTree = "<group>"; };
-		EFA2442E1B8AE63E0017C137 /* AMPaymentStatusRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPaymentStatusRequest.m; sourceTree = "<group>"; };
-		EFA244301B8AE6AD0017C137 /* AMInitPayMkStatusProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMInitPayMkStatusProducer.h; sourceTree = "<group>"; };
-		EFA244311B8AE6AD0017C137 /* AMInitPayMkStatusProducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMInitPayMkStatusProducer.m; sourceTree = "<group>"; };
-		EFA244341B8AF0DF0017C137 /* AMAbstractResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAbstractResponse.h; sourceTree = "<group>"; };
-		EFA244351B8AF0DF0017C137 /* AMAbstractResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAbstractResponse.m; sourceTree = "<group>"; };
-		EFA244371B8AF1880017C137 /* AMPaymentResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPaymentResponse.h; sourceTree = "<group>"; };
-		EFA244381B8AF1880017C137 /* AMPaymentResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPaymentResponse.m; sourceTree = "<group>"; };
-		EFA2443A1B8AF2700017C137 /* AMPaymentStatusResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPaymentStatusResponse.h; sourceTree = "<group>"; };
-		EFA2443B1B8AF2700017C137 /* AMPaymentStatusResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPaymentStatusResponse.m; sourceTree = "<group>"; };
-		EFA2443E1B8AF31F0017C137 /* AMAPICommandsFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPICommandsFacade.h; sourceTree = "<group>"; };
-		EFA244411B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPICommandsFacadeImplementation.h; sourceTree = "<group>"; };
-		EFA244421B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPICommandsFacadeImplementation.m; sourceTree = "<group>"; };
-		EFA244451B8AF68D0017C137 /* AMAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPIClient.h; sourceTree = "<group>"; };
-		EFA244511B8AF77E0017C137 /* AMURLSessionAPIImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMURLSessionAPIImplementation.h; sourceTree = "<group>"; };
-		EFA244521B8AF77E0017C137 /* AMURLSessionAPIImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMURLSessionAPIImplementation.m; sourceTree = "<group>"; };
-		EFA244551B8B048A0017C137 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
-		EFA244561B8B048A0017C137 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +139,43 @@
 		EF249D6C1B8D8D480012C6F2 /* AMFramework */ = {
 			isa = PBXGroup;
 			children = (
-				EFA244041B8A9B620017C137 /* Framework */,
+				EF249D6D1B8D8DC90012C6F2 /* AMAbstractResponse.h */,
+				EF249D6E1B8D8DC90012C6F2 /* AMAbstractResponse.m */,
+				EF249D6F1B8D8DC90012C6F2 /* AMAPIClient.h */,
+				EF249D701B8D8DC90012C6F2 /* AMAPICommand.h */,
+				EF249D711B8D8DC90012C6F2 /* AMAPICommand.m */,
+				EF249D721B8D8DC90012C6F2 /* AMAPICommandProducer.h */,
+				EF249D731B8D8DC90012C6F2 /* AMAPICommandsFacade.h */,
+				EF249D741B8D8DC90012C6F2 /* AMAPICommandsFacadeImplementation.h */,
+				EF249D751B8D8DC90012C6F2 /* AMAPICommandsFacadeImplementation.m */,
+				EF249D761B8D8DC90012C6F2 /* AMConstants.h */,
+				EF249D771B8D8DC90012C6F2 /* AMConstants.m */,
+				EF249D781B8D8DC90012C6F2 /* AMErrors.strings */,
+				EF249D791B8D8DC90012C6F2 /* AMInitPayMkProducer.h */,
+				EF249D7A1B8D8DC90012C6F2 /* AMInitPayMkProducer.m */,
+				EF249D7B1B8D8DC90012C6F2 /* AMInitPayMkStatusProducer.h */,
+				EF249D7C1B8D8DC90012C6F2 /* AMInitPayMkStatusProducer.m */,
+				EF249D7D1B8D8DC90012C6F2 /* AMMerchantCredentials.h */,
+				EF249D7E1B8D8DC90012C6F2 /* AMMerchantCredentials.m */,
+				EF249D7F1B8D8DC90012C6F2 /* AMPaymentRequest.h */,
+				EF249D801B8D8DC90012C6F2 /* AMPaymentRequest.m */,
+				EF249D811B8D8DC90012C6F2 /* AMPaymentResponse.h */,
+				EF249D821B8D8DC90012C6F2 /* AMPaymentResponse.m */,
+				EF249D831B8D8DC90012C6F2 /* AMPaymentStatusRequest.h */,
+				EF249D841B8D8DC90012C6F2 /* AMPaymentStatusRequest.m */,
+				EF249D851B8D8DC90012C6F2 /* AMPaymentStatusResponse.h */,
+				EF249D861B8D8DC90012C6F2 /* AMPaymentStatusResponse.m */,
+				EF249D871B8D8DC90012C6F2 /* AMSecurityUtilities.h */,
+				EF249D881B8D8DC90012C6F2 /* AMSecurityUtilities.m */,
+				EF249D891B8D8DC90012C6F2 /* AMURLSessionAPIImplementation.h */,
+				EF249D8A1B8D8DC90012C6F2 /* AMURLSessionAPIImplementation.m */,
+				EF249D8B1B8D8DC90012C6F2 /* ArsenalPayiOsSDK.h */,
+				EF249D8C1B8D8DC90012C6F2 /* NSDictionary+ContainsKey.h */,
+				EF249D8D1B8D8DC90012C6F2 /* NSDictionary+ContainsKey.m */,
+				EF249D8E1B8D8DC90012C6F2 /* NSString+MD5String.h */,
+				EF249D8F1B8D8DC90012C6F2 /* NSString+MD5String.m */,
+				EF249D901B8D8DC90012C6F2 /* XMLDictionary.h */,
+				EF249D911B8D8DC90012C6F2 /* XMLDictionary.m */,
 			);
 			path = AMFramework;
 			sourceTree = "<group>";
@@ -207,131 +236,6 @@
 				EFA243F91B8A9B580017C137 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EFA244041B8A9B620017C137 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				EFA244051B8A9B6A0017C137 /* Classes */,
-			);
-			name = Framework;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		EFA244051B8A9B6A0017C137 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				EF6066101B8D7D7300186BC9 /* ArsenalPayiOsSDK.h */,
-				EFA244541B8B047C0017C137 /* 3DParty */,
-				EFA244061B8AA22F0017C137 /* Client */,
-				EFA2443D1B8AF3030017C137 /* Facade */,
-				EFA244331B8AF0D10017C137 /* Response */,
-				EFA2442C1B8AE5850017C137 /* Utilities */,
-				EFA244201B8AC0AA0017C137 /* Request */,
-				EFA244191B8AC0220017C137 /* MerchantCredentials */,
-				EFA244151B8ABB4D0017C137 /* Constants */,
-				EFA244071B8AA23A0017C137 /* Command */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		EFA244061B8AA22F0017C137 /* Client */ = {
-			isa = PBXGroup;
-			children = (
-				EFA244451B8AF68D0017C137 /* AMAPIClient.h */,
-				EFA244511B8AF77E0017C137 /* AMURLSessionAPIImplementation.h */,
-				EFA244521B8AF77E0017C137 /* AMURLSessionAPIImplementation.m */,
-			);
-			name = Client;
-			sourceTree = "<group>";
-		};
-		EFA244071B8AA23A0017C137 /* Command */ = {
-			isa = PBXGroup;
-			children = (
-				EFA244081B8AA2620017C137 /* AMAPICommand.h */,
-				EFA244091B8AA2620017C137 /* AMAPICommand.m */,
-				EFA2440F1B8AB9F40017C137 /* AMAPICommandProducer.h */,
-				EFA244121B8ABAD70017C137 /* AMInitPayMkProducer.h */,
-				EFA244131B8ABAD70017C137 /* AMInitPayMkProducer.m */,
-				EFA244301B8AE6AD0017C137 /* AMInitPayMkStatusProducer.h */,
-				EFA244311B8AE6AD0017C137 /* AMInitPayMkStatusProducer.m */,
-			);
-			name = Command;
-			sourceTree = "<group>";
-		};
-		EFA244151B8ABB4D0017C137 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				EFA244161B8ABB5A0017C137 /* AMConstants.h */,
-				EFA244171B8ABB5A0017C137 /* AMConstants.m */,
-				EF6DBEC81B8C3F0100E8F055 /* AMErrors.strings */,
-			);
-			name = Constants;
-			sourceTree = "<group>";
-		};
-		EFA244191B8AC0220017C137 /* MerchantCredentials */ = {
-			isa = PBXGroup;
-			children = (
-				EFA2441A1B8AC03F0017C137 /* AMMerchantCredentials.h */,
-				EFA2441B1B8AC03F0017C137 /* AMMerchantCredentials.m */,
-			);
-			name = MerchantCredentials;
-			sourceTree = "<group>";
-		};
-		EFA244201B8AC0AA0017C137 /* Request */ = {
-			isa = PBXGroup;
-			children = (
-				EFA244211B8AC0E30017C137 /* AMPaymentRequest.h */,
-				EFA244221B8AC0E30017C137 /* AMPaymentRequest.m */,
-				EFA2442D1B8AE63E0017C137 /* AMPaymentStatusRequest.h */,
-				EFA2442E1B8AE63E0017C137 /* AMPaymentStatusRequest.m */,
-			);
-			name = Request;
-			sourceTree = "<group>";
-		};
-		EFA2442C1B8AE5850017C137 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				EFA244241B8AD5420017C137 /* NSString+MD5String.h */,
-				EFA244251B8AD5420017C137 /* NSString+MD5String.m */,
-				EFA244291B8ADBC40017C137 /* AMSecurityUtilities.h */,
-				EFA2442A1B8ADBC40017C137 /* AMSecurityUtilities.m */,
-			);
-			name = Utilities;
-			sourceTree = "<group>";
-		};
-		EFA244331B8AF0D10017C137 /* Response */ = {
-			isa = PBXGroup;
-			children = (
-				EFA244341B8AF0DF0017C137 /* AMAbstractResponse.h */,
-				EFA244351B8AF0DF0017C137 /* AMAbstractResponse.m */,
-				EFA244371B8AF1880017C137 /* AMPaymentResponse.h */,
-				EFA244381B8AF1880017C137 /* AMPaymentResponse.m */,
-				EFA2443A1B8AF2700017C137 /* AMPaymentStatusResponse.h */,
-				EFA2443B1B8AF2700017C137 /* AMPaymentStatusResponse.m */,
-			);
-			name = Response;
-			sourceTree = "<group>";
-		};
-		EFA2443D1B8AF3030017C137 /* Facade */ = {
-			isa = PBXGroup;
-			children = (
-				EFA2443E1B8AF31F0017C137 /* AMAPICommandsFacade.h */,
-				EFA244411B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.h */,
-				EFA244421B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.m */,
-			);
-			name = Facade;
-			sourceTree = "<group>";
-		};
-		EFA244541B8B047C0017C137 /* 3DParty */ = {
-			isa = PBXGroup;
-			children = (
-				EF6DBEC51B8BF37600E8F055 /* NSDictionary+ContainsKey.h */,
-				EF6DBEC61B8BF37600E8F055 /* NSDictionary+ContainsKey.m */,
-				EFA244551B8B048A0017C137 /* XMLDictionary.h */,
-				EFA244561B8B048A0017C137 /* XMLDictionary.m */,
-			);
-			name = 3DParty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,7 +321,7 @@
 				EFA243EA1B8A9B570017C137 /* Main.storyboard in Resources */,
 				EFA243EF1B8A9B570017C137 /* LaunchScreen.xib in Resources */,
 				EFA243EC1B8A9B570017C137 /* Images.xcassets in Resources */,
-				EF6DBEC91B8C3F0100E8F055 /* AMErrors.strings in Resources */,
+				EF249D961B8D8DC90012C6F2 /* AMErrors.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,25 +339,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFA2440A1B8AA2620017C137 /* AMAPICommand.m in Sources */,
-				EFA2442F1B8AE63E0017C137 /* AMPaymentStatusRequest.m in Sources */,
-				EFA244431B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.m in Sources */,
-				EFA244531B8AF77E0017C137 /* AMURLSessionAPIImplementation.m in Sources */,
-				EFA244321B8AE6AD0017C137 /* AMInitPayMkStatusProducer.m in Sources */,
-				EFA244141B8ABAD70017C137 /* AMInitPayMkProducer.m in Sources */,
-				EFA244231B8AC0E30017C137 /* AMPaymentRequest.m in Sources */,
+				EF249D971B8D8DC90012C6F2 /* AMInitPayMkProducer.m in Sources */,
+				EF249D9B1B8D8DC90012C6F2 /* AMPaymentResponse.m in Sources */,
+				EF249D931B8D8DC90012C6F2 /* AMAPICommand.m in Sources */,
+				EF249D981B8D8DC90012C6F2 /* AMInitPayMkStatusProducer.m in Sources */,
+				EF249D951B8D8DC90012C6F2 /* AMConstants.m in Sources */,
+				EF249DA21B8D8DC90012C6F2 /* XMLDictionary.m in Sources */,
+				EF249D9A1B8D8DC90012C6F2 /* AMPaymentRequest.m in Sources */,
+				EF249D921B8D8DC90012C6F2 /* AMAbstractResponse.m in Sources */,
+				EF249DA11B8D8DC90012C6F2 /* NSString+MD5String.m in Sources */,
+				EF249D9D1B8D8DC90012C6F2 /* AMPaymentStatusResponse.m in Sources */,
 				EFA243E71B8A9B570017C137 /* ViewController.m in Sources */,
 				EFA243E41B8A9B570017C137 /* AppDelegate.m in Sources */,
-				EF6DBEC71B8BF37600E8F055 /* NSDictionary+ContainsKey.m in Sources */,
-				EFA244391B8AF1880017C137 /* AMPaymentResponse.m in Sources */,
-				EFA2441C1B8AC03F0017C137 /* AMMerchantCredentials.m in Sources */,
+				EF249D941B8D8DC90012C6F2 /* AMAPICommandsFacadeImplementation.m in Sources */,
+				EF249D9C1B8D8DC90012C6F2 /* AMPaymentStatusRequest.m in Sources */,
+				EF249D991B8D8DC90012C6F2 /* AMMerchantCredentials.m in Sources */,
+				EF249D9E1B8D8DC90012C6F2 /* AMSecurityUtilities.m in Sources */,
 				EFA243E11B8A9B570017C137 /* main.m in Sources */,
-				EFA2443C1B8AF2700017C137 /* AMPaymentStatusResponse.m in Sources */,
-				EFA244361B8AF0DF0017C137 /* AMAbstractResponse.m in Sources */,
-				EFA244261B8AD5420017C137 /* NSString+MD5String.m in Sources */,
-				EFA2442B1B8ADBC40017C137 /* AMSecurityUtilities.m in Sources */,
-				EFA244181B8ABB5A0017C137 /* AMConstants.m in Sources */,
-				EFA244571B8B048A0017C137 /* XMLDictionary.m in Sources */,
+				EF249D9F1B8D8DC90012C6F2 /* AMURLSessionAPIImplementation.m in Sources */,
+				EF249DA01B8D8DC90012C6F2 /* NSDictionary+ContainsKey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,17 +366,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF6DBED81B8D4A9900E8F055 /* AMAPIClientTests.m in Sources */,
-				EF6DBECC1B8C4B5500E8F055 /* AMAbstractResponse.m in Sources */,
 				EF6DBEDB1B8D4C3800E8F055 /* AMAPICommandsFacadeTests.m in Sources */,
-				EF6DBECD1B8C4B5800E8F055 /* AMPaymentResponse.m in Sources */,
 				EF6DBED51B8D38FE00E8F055 /* AMAPIProducersTest.m in Sources */,
 				EFA2440D1B8AAF700017C137 /* AMAPICommandTests.m in Sources */,
-				EF6DBECA1B8C4B3D00E8F055 /* AMURLSessionAPIImplementation.m in Sources */,
-				EFA2440E1B8AB0700017C137 /* AMAPICommand.m in Sources */,
-				EF6DBECB1B8C4B5200E8F055 /* AMAPICommandsFacadeImplementation.m in Sources */,
 				EF6DBED21B8D365E00E8F055 /* AMResponseTests.m in Sources */,
-				EF6DBECE1B8C4B5A00E8F055 /* AMPaymentStatusResponse.m in Sources */,
-				EF6DBEC41B8B06B200E8F055 /* AMConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
