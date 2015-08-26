@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,8 +17,87 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Номер телефона" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBg-hZ-ded">
+                                <rect key="frame" x="16" y="28" width="137" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Лицевой счет" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pU6-aw-2nd">
+                                <rect key="frame" x="16" y="64" width="110" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сумма к оплате" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTd-dg-YtW">
+                                <rect key="frame" x="16" y="100" width="128" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gJ-jf-BoX">
+                                <rect key="frame" x="16" y="129" width="68" height="30"/>
+                                <state key="normal" title="Оплатить">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="performPayment" destination="vXZ-lx-hvc" eventType="touchUpInside" id="C7I-68-4wS"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="914-111-0000" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xkr-rA-a53">
+                                <rect key="frame" x="161" y="28" width="431" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="&gt;1 цифры" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EwA-JZ-7GW">
+                                <rect key="frame" x="161" y="64" width="431" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="10-15000" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="USE-nV-Oy1">
+                                <rect key="frame" x="161" y="100" width="431" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6f0-Ne-8xc">
+                                <rect key="frame" x="16" y="167" width="126" height="30"/>
+                                <state key="normal" title="Тестовый платеж">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="performTestPayment" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lEw-xF-o4Z"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EwA-JZ-7GW" firstAttribute="leading" secondItem="Xkr-rA-a53" secondAttribute="leading" id="3Ch-cR-AT0"/>
+                            <constraint firstItem="8gJ-jf-BoX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="5Cy-YZ-a4Z"/>
+                            <constraint firstItem="Xkr-rA-a53" firstAttribute="top" secondItem="DBg-hZ-ded" secondAttribute="top" id="70f-q8-4Hj"/>
+                            <constraint firstItem="6f0-Ne-8xc" firstAttribute="top" secondItem="8gJ-jf-BoX" secondAttribute="bottom" constant="8" id="8vw-r5-h5o"/>
+                            <constraint firstItem="pU6-aw-2nd" firstAttribute="leading" secondItem="PTd-dg-YtW" secondAttribute="leading" id="BaS-7m-W8q"/>
+                            <constraint firstItem="EwA-JZ-7GW" firstAttribute="leading" secondItem="USE-nV-Oy1" secondAttribute="leading" id="DME-jh-DIW"/>
+                            <constraint firstItem="8gJ-jf-BoX" firstAttribute="top" secondItem="PTd-dg-YtW" secondAttribute="bottom" constant="8" symbolic="YES" id="EEo-lt-Egn"/>
+                            <constraint firstItem="Xkr-rA-a53" firstAttribute="leading" secondItem="DBg-hZ-ded" secondAttribute="trailing" constant="8" symbolic="YES" id="Ei1-e7-YZN"/>
+                            <constraint firstItem="EwA-JZ-7GW" firstAttribute="trailing" secondItem="USE-nV-Oy1" secondAttribute="trailing" id="GgX-rj-pce"/>
+                            <constraint firstItem="EwA-JZ-7GW" firstAttribute="top" secondItem="pU6-aw-2nd" secondAttribute="top" id="I7c-Ii-Ahd"/>
+                            <constraint firstItem="Xkr-rA-a53" firstAttribute="trailing" secondItem="EwA-JZ-7GW" secondAttribute="trailing" id="Law-HO-LWi"/>
+                            <constraint firstItem="pU6-aw-2nd" firstAttribute="leading" secondItem="DBg-hZ-ded" secondAttribute="leading" id="Mzh-cC-OFc"/>
+                            <constraint firstItem="PTd-dg-YtW" firstAttribute="leading" secondItem="8gJ-jf-BoX" secondAttribute="leading" id="QAX-kK-DgP"/>
+                            <constraint firstItem="USE-nV-Oy1" firstAttribute="top" secondItem="PTd-dg-YtW" secondAttribute="top" id="asP-Ns-643"/>
+                            <constraint firstItem="DBg-hZ-ded" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" symbolic="YES" id="mX9-gJ-Osk"/>
+                            <constraint firstAttribute="trailing" secondItem="Xkr-rA-a53" secondAttribute="trailing" constant="8" id="ojH-Nr-GLf"/>
+                            <constraint firstItem="pU6-aw-2nd" firstAttribute="top" secondItem="DBg-hZ-ded" secondAttribute="bottom" constant="15" id="s1l-RZ-YSQ"/>
+                            <constraint firstItem="6f0-Ne-8xc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="wbo-9a-0va"/>
+                            <constraint firstItem="PTd-dg-YtW" firstAttribute="top" secondItem="pU6-aw-2nd" secondAttribute="bottom" constant="15" id="ytq-dx-Z1g"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="phoneNumberTextField" destination="Xkr-rA-a53" id="2zM-wY-rnE"/>
+                        <outlet property="recipientTextField" destination="EwA-JZ-7GW" id="Ui1-cJ-NHJ"/>
+                        <outlet property="sumTextField" destination="USE-nV-Oy1" id="zyc-zq-KJq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

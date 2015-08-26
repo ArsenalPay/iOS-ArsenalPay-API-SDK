@@ -11,14 +11,46 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *phoneNumberTextField;
+@property (weak, nonatomic) IBOutlet UITextField *recipientTextField;
+@property (weak, nonatomic) IBOutlet UITextField *sumTextField;
+
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
+- (IBAction)performPayment
 {
-    [super viewDidLoad];
-    
+    if (self.phoneNumberTextField.text.length > 0 && self.recipientTextField.text.length > 0 && self.sumTextField.text.length > 0)
+    {
+        id <AMAPICommandsFacade> apiFacade = [[AMAPICommandsFacadeImplementation alloc] init];
+        AMPaymentRequest *request = [[AMPaymentRequest alloc] init];
+        request.payerId = [NSNumber numberWithLongLong:[self.phoneNumberTextField.text longLongValue]];
+        request.recipientId = [NSNumber numberWithLongLong:[self.recipientTextField.text longLongValue]];
+        request.amount = [NSNumber numberWithLongLong:[self.sumTextField.text longLongValue]];
+        request.currency = @"RUR";
+        request.comment = @"iOs-sdk-test";
+        request.test = YES;
+        [apiFacade requestPayment:request completion:^(AMPaymentResponse *response, NSUInteger statusCode, NSError *error) {
+            if (!error)
+            {
+                NSLog(@"requestPayment response: %@", response);
+            }
+            else
+            {
+                NSLog(@"requestPayment error: %@", error.localizedDescription);
+            }
+        }];
+    }
+    else
+    {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Fill in all the fields" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alert show];
+    }
+}
+
+- (IBAction)performTestPayment
+{
     id <AMAPICommandsFacade> apiFacade = [[AMAPICommandsFacadeImplementation alloc] init];
     AMPaymentRequest *request = [[AMPaymentRequest alloc] init];
     request.payerId = @(9140001111L);

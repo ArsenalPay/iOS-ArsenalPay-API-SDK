@@ -11,7 +11,6 @@
 		EF249E001B8D8F230012C6F2 /* AMAPICommand.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DDE1B8D8F220012C6F2 /* AMAPICommand.m */; };
 		EF249E011B8D8F230012C6F2 /* AMAPICommandsFacadeImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DE21B8D8F220012C6F2 /* AMAPICommandsFacadeImplementation.m */; };
 		EF249E021B8D8F230012C6F2 /* AMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DE41B8D8F220012C6F2 /* AMConstants.m */; };
-		EF249E031B8D8F230012C6F2 /* AMErrors.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF249DE51B8D8F220012C6F2 /* AMErrors.strings */; };
 		EF249E041B8D8F230012C6F2 /* AMInitPayMkProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DE71B8D8F220012C6F2 /* AMInitPayMkProducer.m */; };
 		EF249E051B8D8F230012C6F2 /* AMInitPayMkStatusProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DE91B8D8F220012C6F2 /* AMInitPayMkStatusProducer.m */; };
 		EF249E061B8D8F230012C6F2 /* AMMerchantCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DEB1B8D8F220012C6F2 /* AMMerchantCredentials.m */; };
@@ -24,6 +23,7 @@
 		EF249E0D1B8D8F230012C6F2 /* NSDictionary+ContainsKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DFA1B8D8F220012C6F2 /* NSDictionary+ContainsKey.m */; };
 		EF249E0E1B8D8F230012C6F2 /* NSString+MD5String.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DFC1B8D8F220012C6F2 /* NSString+MD5String.m */; };
 		EF249E0F1B8D8F230012C6F2 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DFE1B8D8F230012C6F2 /* XMLDictionary.m */; };
+		EF249E101B8D949F0012C6F2 /* AMErrors.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF249E121B8D949F0012C6F2 /* AMErrors.strings */; };
 		EF6DBED21B8D365E00E8F055 /* AMResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBED11B8D365E00E8F055 /* AMResponseTests.m */; };
 		EF6DBED51B8D38FE00E8F055 /* AMAPIProducersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBED41B8D38FE00E8F055 /* AMAPIProducersTest.m */; };
 		EF6DBED81B8D4A9900E8F055 /* AMAPIClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBED71B8D4A9900E8F055 /* AMAPIClientTests.m */; };
@@ -59,7 +59,6 @@
 		EF249DE21B8D8F220012C6F2 /* AMAPICommandsFacadeImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMAPICommandsFacadeImplementation.m; path = APFramework/AMAPICommandsFacadeImplementation.m; sourceTree = "<group>"; };
 		EF249DE31B8D8F220012C6F2 /* AMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMConstants.h; path = APFramework/AMConstants.h; sourceTree = "<group>"; };
 		EF249DE41B8D8F220012C6F2 /* AMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMConstants.m; path = APFramework/AMConstants.m; sourceTree = "<group>"; };
-		EF249DE51B8D8F220012C6F2 /* AMErrors.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = AMErrors.strings; path = APFramework/AMErrors.strings; sourceTree = "<group>"; };
 		EF249DE61B8D8F220012C6F2 /* AMInitPayMkProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMInitPayMkProducer.h; path = APFramework/AMInitPayMkProducer.h; sourceTree = "<group>"; };
 		EF249DE71B8D8F220012C6F2 /* AMInitPayMkProducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMInitPayMkProducer.m; path = APFramework/AMInitPayMkProducer.m; sourceTree = "<group>"; };
 		EF249DE81B8D8F220012C6F2 /* AMInitPayMkStatusProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMInitPayMkStatusProducer.h; path = APFramework/AMInitPayMkStatusProducer.h; sourceTree = "<group>"; };
@@ -85,6 +84,9 @@
 		EF249DFC1B8D8F220012C6F2 /* NSString+MD5String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5String.m"; path = "APFramework/NSString+MD5String.m"; sourceTree = "<group>"; };
 		EF249DFD1B8D8F230012C6F2 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLDictionary.h; path = APFramework/XMLDictionary.h; sourceTree = "<group>"; };
 		EF249DFE1B8D8F230012C6F2 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLDictionary.m; path = APFramework/XMLDictionary.m; sourceTree = "<group>"; };
+		EF249E111B8D949F0012C6F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/AMErrors.strings; sourceTree = "<group>"; };
+		EF249E131B8D95580012C6F2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/AMErrors.strings; sourceTree = "<group>"; };
+		EF249E141B8D95640012C6F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AMErrors.strings; sourceTree = "<group>"; };
 		EF6DBED11B8D365E00E8F055 /* AMResponseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMResponseTests.m; sourceTree = "<group>"; };
 		EF6DBED41B8D38FE00E8F055 /* AMAPIProducersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPIProducersTest.m; sourceTree = "<group>"; };
 		EF6DBED71B8D4A9900E8F055 /* AMAPIClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPIClientTests.m; sourceTree = "<group>"; };
@@ -150,7 +152,7 @@
 				EF249DE21B8D8F220012C6F2 /* AMAPICommandsFacadeImplementation.m */,
 				EF249DE31B8D8F220012C6F2 /* AMConstants.h */,
 				EF249DE41B8D8F220012C6F2 /* AMConstants.m */,
-				EF249DE51B8D8F220012C6F2 /* AMErrors.strings */,
+				EF249E121B8D949F0012C6F2 /* AMErrors.strings */,
 				EF249DE61B8D8F220012C6F2 /* AMInitPayMkProducer.h */,
 				EF249DE71B8D8F220012C6F2 /* AMInitPayMkProducer.m */,
 				EF249DE81B8D8F220012C6F2 /* AMInitPayMkStatusProducer.h */,
@@ -301,6 +303,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = EFA243D21B8A9B570017C137;
 			productRefGroup = EFA243DC1B8A9B570017C137 /* Products */;
@@ -321,7 +324,7 @@
 				EFA243EA1B8A9B570017C137 /* Main.storyboard in Resources */,
 				EFA243EF1B8A9B570017C137 /* LaunchScreen.xib in Resources */,
 				EFA243EC1B8A9B570017C137 /* Images.xcassets in Resources */,
-				EF249E031B8D8F230012C6F2 /* AMErrors.strings in Resources */,
+				EF249E101B8D949F0012C6F2 /* AMErrors.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +387,17 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		EF249E121B8D949F0012C6F2 /* AMErrors.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF249E111B8D949F0012C6F2 /* Base */,
+				EF249E131B8D95580012C6F2 /* ru */,
+				EF249E141B8D95640012C6F2 /* en */,
+			);
+			name = AMErrors.strings;
+			path = APFramework;
+			sourceTree = "<group>";
+		};
 		EFA243E81B8A9B570017C137 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -488,7 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AMFramework/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -499,7 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AMFramework/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
