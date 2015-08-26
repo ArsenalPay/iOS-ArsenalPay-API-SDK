@@ -18,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     id <AMAPICommandsFacade> apiFacade = [[AMAPICommandsFacadeImplementation alloc] init];
     AMPaymentRequest *request = [[AMPaymentRequest alloc] init];
     request.payerId = @(9140001111L);
