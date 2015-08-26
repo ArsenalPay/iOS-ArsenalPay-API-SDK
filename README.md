@@ -12,6 +12,16 @@ Install
 
 Clone repo, copy all files within the Framework group to your project. All files require ARC
 
+
+Usage
+----
+To use the sdk, just import ArsenalPayiOsSDK header file loke this:
+
+```objective-c
+#import "ArsenalPayiOsSDK.h"
+```
+
+
 Merchant Credentials
 ----
 First of all, if you wish to start using ArsenalPay-SDK for real, you should get real MerchantCredentials. For this, go to **[ArsenalPay support page](https://arsenalpay.ru/index.html)** and send your request.
