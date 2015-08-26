@@ -15,7 +15,7 @@ Clone repo, copy all files within the Framework group to your project. All files
 
 Usage
 ----
-To use the sdk, just import ArsenalPayiOsSDK header file loke this:
+To use the sdk, just import ArsenalPayiOsSDK header file like this:
 
 ```objective-c
 #import "ArsenalPayiOsSDK.h"
