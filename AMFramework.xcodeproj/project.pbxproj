@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF249DC81B8D8E920012C6F2 /* AMAbstractResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DA41B8D8E920012C6F2 /* AMAbstractResponse.m */; };
-		EF249DC91B8D8E920012C6F2 /* AMAPICommand.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DA71B8D8E920012C6F2 /* AMAPICommand.m */; };
-		EF249DCA1B8D8E920012C6F2 /* AMAPICommandsFacadeImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DAB1B8D8E920012C6F2 /* AMAPICommandsFacadeImplementation.m */; };
-		EF249DCB1B8D8E920012C6F2 /* AMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DAD1B8D8E920012C6F2 /* AMConstants.m */; };
-		EF249DCC1B8D8E920012C6F2 /* AMErrors.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF249DAE1B8D8E920012C6F2 /* AMErrors.strings */; };
-		EF249DCD1B8D8E920012C6F2 /* AMInitPayMkProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DB01B8D8E920012C6F2 /* AMInitPayMkProducer.m */; };
-		EF249DCE1B8D8E920012C6F2 /* AMInitPayMkStatusProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DB21B8D8E920012C6F2 /* AMInitPayMkStatusProducer.m */; };
-		EF249DCF1B8D8E920012C6F2 /* AMMerchantCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DB41B8D8E920012C6F2 /* AMMerchantCredentials.m */; };
-		EF249DD01B8D8E920012C6F2 /* AMPaymentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DB61B8D8E920012C6F2 /* AMPaymentRequest.m */; };
-		EF249DD11B8D8E920012C6F2 /* AMPaymentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DB81B8D8E920012C6F2 /* AMPaymentResponse.m */; };
-		EF249DD21B8D8E920012C6F2 /* AMPaymentStatusRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DBA1B8D8E920012C6F2 /* AMPaymentStatusRequest.m */; };
-		EF249DD31B8D8E920012C6F2 /* AMPaymentStatusResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DBC1B8D8E920012C6F2 /* AMPaymentStatusResponse.m */; };
-		EF249DD41B8D8E920012C6F2 /* AMSecurityUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DBE1B8D8E920012C6F2 /* AMSecurityUtilities.m */; };
-		EF249DD51B8D8E920012C6F2 /* AMURLSessionAPIImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DC01B8D8E920012C6F2 /* AMURLSessionAPIImplementation.m */; };
-		EF249DD61B8D8E920012C6F2 /* NSDictionary+ContainsKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DC31B8D8E920012C6F2 /* NSDictionary+ContainsKey.m */; };
-		EF249DD71B8D8E920012C6F2 /* NSString+MD5String.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DC51B8D8E920012C6F2 /* NSString+MD5String.m */; };
-		EF249DD81B8D8E920012C6F2 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DC71B8D8E920012C6F2 /* XMLDictionary.m */; };
+		EF249DFF1B8D8F230012C6F2 /* AMAbstractResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DDB1B8D8F220012C6F2 /* AMAbstractResponse.m */; };
+		EF249E001B8D8F230012C6F2 /* AMAPICommand.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DDE1B8D8F220012C6F2 /* AMAPICommand.m */; };
+		EF249E011B8D8F230012C6F2 /* AMAPICommandsFacadeImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DE21B8D8F220012C6F2 /* AMAPICommandsFacadeImplementation.m */; };
+		EF249E021B8D8F230012C6F2 /* AMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DE41B8D8F220012C6F2 /* AMConstants.m */; };
+		EF249E031B8D8F230012C6F2 /* AMErrors.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF249DE51B8D8F220012C6F2 /* AMErrors.strings */; };
+		EF249E041B8D8F230012C6F2 /* AMInitPayMkProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DE71B8D8F220012C6F2 /* AMInitPayMkProducer.m */; };
+		EF249E051B8D8F230012C6F2 /* AMInitPayMkStatusProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DE91B8D8F220012C6F2 /* AMInitPayMkStatusProducer.m */; };
+		EF249E061B8D8F230012C6F2 /* AMMerchantCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DEB1B8D8F220012C6F2 /* AMMerchantCredentials.m */; };
+		EF249E071B8D8F230012C6F2 /* AMPaymentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DED1B8D8F220012C6F2 /* AMPaymentRequest.m */; };
+		EF249E081B8D8F230012C6F2 /* AMPaymentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DEF1B8D8F220012C6F2 /* AMPaymentResponse.m */; };
+		EF249E091B8D8F230012C6F2 /* AMPaymentStatusRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DF11B8D8F220012C6F2 /* AMPaymentStatusRequest.m */; };
+		EF249E0A1B8D8F230012C6F2 /* AMPaymentStatusResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DF31B8D8F220012C6F2 /* AMPaymentStatusResponse.m */; };
+		EF249E0B1B8D8F230012C6F2 /* AMSecurityUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DF51B8D8F220012C6F2 /* AMSecurityUtilities.m */; };
+		EF249E0C1B8D8F230012C6F2 /* AMURLSessionAPIImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DF71B8D8F220012C6F2 /* AMURLSessionAPIImplementation.m */; };
+		EF249E0D1B8D8F230012C6F2 /* NSDictionary+ContainsKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DFA1B8D8F220012C6F2 /* NSDictionary+ContainsKey.m */; };
+		EF249E0E1B8D8F230012C6F2 /* NSString+MD5String.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DFC1B8D8F220012C6F2 /* NSString+MD5String.m */; };
+		EF249E0F1B8D8F230012C6F2 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EF249DFE1B8D8F230012C6F2 /* XMLDictionary.m */; };
 		EF6DBED21B8D365E00E8F055 /* AMResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBED11B8D365E00E8F055 /* AMResponseTests.m */; };
 		EF6DBED51B8D38FE00E8F055 /* AMAPIProducersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBED41B8D38FE00E8F055 /* AMAPIProducersTest.m */; };
 		EF6DBED81B8D4A9900E8F055 /* AMAPIClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBED71B8D4A9900E8F055 /* AMAPIClientTests.m */; };
@@ -48,43 +48,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF249DA31B8D8E920012C6F2 /* AMAbstractResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMAbstractResponse.h; path = Framework/AMAbstractResponse.h; sourceTree = "<group>"; };
-		EF249DA41B8D8E920012C6F2 /* AMAbstractResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMAbstractResponse.m; path = Framework/AMAbstractResponse.m; sourceTree = "<group>"; };
-		EF249DA51B8D8E920012C6F2 /* AMAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMAPIClient.h; path = Framework/AMAPIClient.h; sourceTree = "<group>"; };
-		EF249DA61B8D8E920012C6F2 /* AMAPICommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMAPICommand.h; path = Framework/AMAPICommand.h; sourceTree = "<group>"; };
-		EF249DA71B8D8E920012C6F2 /* AMAPICommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMAPICommand.m; path = Framework/AMAPICommand.m; sourceTree = "<group>"; };
-		EF249DA81B8D8E920012C6F2 /* AMAPICommandProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMAPICommandProducer.h; path = Framework/AMAPICommandProducer.h; sourceTree = "<group>"; };
-		EF249DA91B8D8E920012C6F2 /* AMAPICommandsFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMAPICommandsFacade.h; path = Framework/AMAPICommandsFacade.h; sourceTree = "<group>"; };
-		EF249DAA1B8D8E920012C6F2 /* AMAPICommandsFacadeImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMAPICommandsFacadeImplementation.h; path = Framework/AMAPICommandsFacadeImplementation.h; sourceTree = "<group>"; };
-		EF249DAB1B8D8E920012C6F2 /* AMAPICommandsFacadeImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMAPICommandsFacadeImplementation.m; path = Framework/AMAPICommandsFacadeImplementation.m; sourceTree = "<group>"; };
-		EF249DAC1B8D8E920012C6F2 /* AMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMConstants.h; path = Framework/AMConstants.h; sourceTree = "<group>"; };
-		EF249DAD1B8D8E920012C6F2 /* AMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMConstants.m; path = Framework/AMConstants.m; sourceTree = "<group>"; };
-		EF249DAE1B8D8E920012C6F2 /* AMErrors.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = AMErrors.strings; path = Framework/AMErrors.strings; sourceTree = "<group>"; };
-		EF249DAF1B8D8E920012C6F2 /* AMInitPayMkProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMInitPayMkProducer.h; path = Framework/AMInitPayMkProducer.h; sourceTree = "<group>"; };
-		EF249DB01B8D8E920012C6F2 /* AMInitPayMkProducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMInitPayMkProducer.m; path = Framework/AMInitPayMkProducer.m; sourceTree = "<group>"; };
-		EF249DB11B8D8E920012C6F2 /* AMInitPayMkStatusProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMInitPayMkStatusProducer.h; path = Framework/AMInitPayMkStatusProducer.h; sourceTree = "<group>"; };
-		EF249DB21B8D8E920012C6F2 /* AMInitPayMkStatusProducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMInitPayMkStatusProducer.m; path = Framework/AMInitPayMkStatusProducer.m; sourceTree = "<group>"; };
-		EF249DB31B8D8E920012C6F2 /* AMMerchantCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMMerchantCredentials.h; path = Framework/AMMerchantCredentials.h; sourceTree = "<group>"; };
-		EF249DB41B8D8E920012C6F2 /* AMMerchantCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMMerchantCredentials.m; path = Framework/AMMerchantCredentials.m; sourceTree = "<group>"; };
-		EF249DB51B8D8E920012C6F2 /* AMPaymentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMPaymentRequest.h; path = Framework/AMPaymentRequest.h; sourceTree = "<group>"; };
-		EF249DB61B8D8E920012C6F2 /* AMPaymentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMPaymentRequest.m; path = Framework/AMPaymentRequest.m; sourceTree = "<group>"; };
-		EF249DB71B8D8E920012C6F2 /* AMPaymentResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMPaymentResponse.h; path = Framework/AMPaymentResponse.h; sourceTree = "<group>"; };
-		EF249DB81B8D8E920012C6F2 /* AMPaymentResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMPaymentResponse.m; path = Framework/AMPaymentResponse.m; sourceTree = "<group>"; };
-		EF249DB91B8D8E920012C6F2 /* AMPaymentStatusRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMPaymentStatusRequest.h; path = Framework/AMPaymentStatusRequest.h; sourceTree = "<group>"; };
-		EF249DBA1B8D8E920012C6F2 /* AMPaymentStatusRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMPaymentStatusRequest.m; path = Framework/AMPaymentStatusRequest.m; sourceTree = "<group>"; };
-		EF249DBB1B8D8E920012C6F2 /* AMPaymentStatusResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMPaymentStatusResponse.h; path = Framework/AMPaymentStatusResponse.h; sourceTree = "<group>"; };
-		EF249DBC1B8D8E920012C6F2 /* AMPaymentStatusResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMPaymentStatusResponse.m; path = Framework/AMPaymentStatusResponse.m; sourceTree = "<group>"; };
-		EF249DBD1B8D8E920012C6F2 /* AMSecurityUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSecurityUtilities.h; path = Framework/AMSecurityUtilities.h; sourceTree = "<group>"; };
-		EF249DBE1B8D8E920012C6F2 /* AMSecurityUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSecurityUtilities.m; path = Framework/AMSecurityUtilities.m; sourceTree = "<group>"; };
-		EF249DBF1B8D8E920012C6F2 /* AMURLSessionAPIImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMURLSessionAPIImplementation.h; path = Framework/AMURLSessionAPIImplementation.h; sourceTree = "<group>"; };
-		EF249DC01B8D8E920012C6F2 /* AMURLSessionAPIImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMURLSessionAPIImplementation.m; path = Framework/AMURLSessionAPIImplementation.m; sourceTree = "<group>"; };
-		EF249DC11B8D8E920012C6F2 /* ArsenalPayiOsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArsenalPayiOsSDK.h; path = Framework/ArsenalPayiOsSDK.h; sourceTree = "<group>"; };
-		EF249DC21B8D8E920012C6F2 /* NSDictionary+ContainsKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+ContainsKey.h"; path = "Framework/NSDictionary+ContainsKey.h"; sourceTree = "<group>"; };
-		EF249DC31B8D8E920012C6F2 /* NSDictionary+ContainsKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+ContainsKey.m"; path = "Framework/NSDictionary+ContainsKey.m"; sourceTree = "<group>"; };
-		EF249DC41B8D8E920012C6F2 /* NSString+MD5String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5String.h"; path = "Framework/NSString+MD5String.h"; sourceTree = "<group>"; };
-		EF249DC51B8D8E920012C6F2 /* NSString+MD5String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5String.m"; path = "Framework/NSString+MD5String.m"; sourceTree = "<group>"; };
-		EF249DC61B8D8E920012C6F2 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLDictionary.h; path = Framework/XMLDictionary.h; sourceTree = "<group>"; };
-		EF249DC71B8D8E920012C6F2 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLDictionary.m; path = Framework/XMLDictionary.m; sourceTree = "<group>"; };
+		EF249DDA1B8D8F220012C6F2 /* AMAbstractResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMAbstractResponse.h; path = APFramework/AMAbstractResponse.h; sourceTree = "<group>"; };
+		EF249DDB1B8D8F220012C6F2 /* AMAbstractResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMAbstractResponse.m; path = APFramework/AMAbstractResponse.m; sourceTree = "<group>"; };
+		EF249DDC1B8D8F220012C6F2 /* AMAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMAPIClient.h; path = APFramework/AMAPIClient.h; sourceTree = "<group>"; };
+		EF249DDD1B8D8F220012C6F2 /* AMAPICommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMAPICommand.h; path = APFramework/AMAPICommand.h; sourceTree = "<group>"; };
+		EF249DDE1B8D8F220012C6F2 /* AMAPICommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMAPICommand.m; path = APFramework/AMAPICommand.m; sourceTree = "<group>"; };
+		EF249DDF1B8D8F220012C6F2 /* AMAPICommandProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMAPICommandProducer.h; path = APFramework/AMAPICommandProducer.h; sourceTree = "<group>"; };
+		EF249DE01B8D8F220012C6F2 /* AMAPICommandsFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMAPICommandsFacade.h; path = APFramework/AMAPICommandsFacade.h; sourceTree = "<group>"; };
+		EF249DE11B8D8F220012C6F2 /* AMAPICommandsFacadeImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMAPICommandsFacadeImplementation.h; path = APFramework/AMAPICommandsFacadeImplementation.h; sourceTree = "<group>"; };
+		EF249DE21B8D8F220012C6F2 /* AMAPICommandsFacadeImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMAPICommandsFacadeImplementation.m; path = APFramework/AMAPICommandsFacadeImplementation.m; sourceTree = "<group>"; };
+		EF249DE31B8D8F220012C6F2 /* AMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMConstants.h; path = APFramework/AMConstants.h; sourceTree = "<group>"; };
+		EF249DE41B8D8F220012C6F2 /* AMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMConstants.m; path = APFramework/AMConstants.m; sourceTree = "<group>"; };
+		EF249DE51B8D8F220012C6F2 /* AMErrors.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = AMErrors.strings; path = APFramework/AMErrors.strings; sourceTree = "<group>"; };
+		EF249DE61B8D8F220012C6F2 /* AMInitPayMkProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMInitPayMkProducer.h; path = APFramework/AMInitPayMkProducer.h; sourceTree = "<group>"; };
+		EF249DE71B8D8F220012C6F2 /* AMInitPayMkProducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMInitPayMkProducer.m; path = APFramework/AMInitPayMkProducer.m; sourceTree = "<group>"; };
+		EF249DE81B8D8F220012C6F2 /* AMInitPayMkStatusProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMInitPayMkStatusProducer.h; path = APFramework/AMInitPayMkStatusProducer.h; sourceTree = "<group>"; };
+		EF249DE91B8D8F220012C6F2 /* AMInitPayMkStatusProducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMInitPayMkStatusProducer.m; path = APFramework/AMInitPayMkStatusProducer.m; sourceTree = "<group>"; };
+		EF249DEA1B8D8F220012C6F2 /* AMMerchantCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMMerchantCredentials.h; path = APFramework/AMMerchantCredentials.h; sourceTree = "<group>"; };
+		EF249DEB1B8D8F220012C6F2 /* AMMerchantCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMMerchantCredentials.m; path = APFramework/AMMerchantCredentials.m; sourceTree = "<group>"; };
+		EF249DEC1B8D8F220012C6F2 /* AMPaymentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMPaymentRequest.h; path = APFramework/AMPaymentRequest.h; sourceTree = "<group>"; };
+		EF249DED1B8D8F220012C6F2 /* AMPaymentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMPaymentRequest.m; path = APFramework/AMPaymentRequest.m; sourceTree = "<group>"; };
+		EF249DEE1B8D8F220012C6F2 /* AMPaymentResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMPaymentResponse.h; path = APFramework/AMPaymentResponse.h; sourceTree = "<group>"; };
+		EF249DEF1B8D8F220012C6F2 /* AMPaymentResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMPaymentResponse.m; path = APFramework/AMPaymentResponse.m; sourceTree = "<group>"; };
+		EF249DF01B8D8F220012C6F2 /* AMPaymentStatusRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMPaymentStatusRequest.h; path = APFramework/AMPaymentStatusRequest.h; sourceTree = "<group>"; };
+		EF249DF11B8D8F220012C6F2 /* AMPaymentStatusRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMPaymentStatusRequest.m; path = APFramework/AMPaymentStatusRequest.m; sourceTree = "<group>"; };
+		EF249DF21B8D8F220012C6F2 /* AMPaymentStatusResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMPaymentStatusResponse.h; path = APFramework/AMPaymentStatusResponse.h; sourceTree = "<group>"; };
+		EF249DF31B8D8F220012C6F2 /* AMPaymentStatusResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMPaymentStatusResponse.m; path = APFramework/AMPaymentStatusResponse.m; sourceTree = "<group>"; };
+		EF249DF41B8D8F220012C6F2 /* AMSecurityUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMSecurityUtilities.h; path = APFramework/AMSecurityUtilities.h; sourceTree = "<group>"; };
+		EF249DF51B8D8F220012C6F2 /* AMSecurityUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMSecurityUtilities.m; path = APFramework/AMSecurityUtilities.m; sourceTree = "<group>"; };
+		EF249DF61B8D8F220012C6F2 /* AMURLSessionAPIImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMURLSessionAPIImplementation.h; path = APFramework/AMURLSessionAPIImplementation.h; sourceTree = "<group>"; };
+		EF249DF71B8D8F220012C6F2 /* AMURLSessionAPIImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMURLSessionAPIImplementation.m; path = APFramework/AMURLSessionAPIImplementation.m; sourceTree = "<group>"; };
+		EF249DF81B8D8F220012C6F2 /* ArsenalPayiOsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArsenalPayiOsSDK.h; path = APFramework/ArsenalPayiOsSDK.h; sourceTree = "<group>"; };
+		EF249DF91B8D8F220012C6F2 /* NSDictionary+ContainsKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+ContainsKey.h"; path = "APFramework/NSDictionary+ContainsKey.h"; sourceTree = "<group>"; };
+		EF249DFA1B8D8F220012C6F2 /* NSDictionary+ContainsKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+ContainsKey.m"; path = "APFramework/NSDictionary+ContainsKey.m"; sourceTree = "<group>"; };
+		EF249DFB1B8D8F220012C6F2 /* NSString+MD5String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5String.h"; path = "APFramework/NSString+MD5String.h"; sourceTree = "<group>"; };
+		EF249DFC1B8D8F220012C6F2 /* NSString+MD5String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5String.m"; path = "APFramework/NSString+MD5String.m"; sourceTree = "<group>"; };
+		EF249DFD1B8D8F230012C6F2 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLDictionary.h; path = APFramework/XMLDictionary.h; sourceTree = "<group>"; };
+		EF249DFE1B8D8F230012C6F2 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLDictionary.m; path = APFramework/XMLDictionary.m; sourceTree = "<group>"; };
 		EF6DBED11B8D365E00E8F055 /* AMResponseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMResponseTests.m; sourceTree = "<group>"; };
 		EF6DBED41B8D38FE00E8F055 /* AMAPIProducersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPIProducersTest.m; sourceTree = "<group>"; };
 		EF6DBED71B8D4A9900E8F055 /* AMAPIClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPIClientTests.m; sourceTree = "<group>"; };
@@ -136,48 +136,48 @@
 			name = Example;
 			sourceTree = "<group>";
 		};
-		EF249DD91B8D8E9E0012C6F2 /* Framework */ = {
+		EF249DD91B8D8E9E0012C6F2 /* APFramework */ = {
 			isa = PBXGroup;
 			children = (
-				EF249DA31B8D8E920012C6F2 /* AMAbstractResponse.h */,
-				EF249DA41B8D8E920012C6F2 /* AMAbstractResponse.m */,
-				EF249DA51B8D8E920012C6F2 /* AMAPIClient.h */,
-				EF249DA61B8D8E920012C6F2 /* AMAPICommand.h */,
-				EF249DA71B8D8E920012C6F2 /* AMAPICommand.m */,
-				EF249DA81B8D8E920012C6F2 /* AMAPICommandProducer.h */,
-				EF249DA91B8D8E920012C6F2 /* AMAPICommandsFacade.h */,
-				EF249DAA1B8D8E920012C6F2 /* AMAPICommandsFacadeImplementation.h */,
-				EF249DAB1B8D8E920012C6F2 /* AMAPICommandsFacadeImplementation.m */,
-				EF249DAC1B8D8E920012C6F2 /* AMConstants.h */,
-				EF249DAD1B8D8E920012C6F2 /* AMConstants.m */,
-				EF249DAE1B8D8E920012C6F2 /* AMErrors.strings */,
-				EF249DAF1B8D8E920012C6F2 /* AMInitPayMkProducer.h */,
-				EF249DB01B8D8E920012C6F2 /* AMInitPayMkProducer.m */,
-				EF249DB11B8D8E920012C6F2 /* AMInitPayMkStatusProducer.h */,
-				EF249DB21B8D8E920012C6F2 /* AMInitPayMkStatusProducer.m */,
-				EF249DB31B8D8E920012C6F2 /* AMMerchantCredentials.h */,
-				EF249DB41B8D8E920012C6F2 /* AMMerchantCredentials.m */,
-				EF249DB51B8D8E920012C6F2 /* AMPaymentRequest.h */,
-				EF249DB61B8D8E920012C6F2 /* AMPaymentRequest.m */,
-				EF249DB71B8D8E920012C6F2 /* AMPaymentResponse.h */,
-				EF249DB81B8D8E920012C6F2 /* AMPaymentResponse.m */,
-				EF249DB91B8D8E920012C6F2 /* AMPaymentStatusRequest.h */,
-				EF249DBA1B8D8E920012C6F2 /* AMPaymentStatusRequest.m */,
-				EF249DBB1B8D8E920012C6F2 /* AMPaymentStatusResponse.h */,
-				EF249DBC1B8D8E920012C6F2 /* AMPaymentStatusResponse.m */,
-				EF249DBD1B8D8E920012C6F2 /* AMSecurityUtilities.h */,
-				EF249DBE1B8D8E920012C6F2 /* AMSecurityUtilities.m */,
-				EF249DBF1B8D8E920012C6F2 /* AMURLSessionAPIImplementation.h */,
-				EF249DC01B8D8E920012C6F2 /* AMURLSessionAPIImplementation.m */,
-				EF249DC11B8D8E920012C6F2 /* ArsenalPayiOsSDK.h */,
-				EF249DC21B8D8E920012C6F2 /* NSDictionary+ContainsKey.h */,
-				EF249DC31B8D8E920012C6F2 /* NSDictionary+ContainsKey.m */,
-				EF249DC41B8D8E920012C6F2 /* NSString+MD5String.h */,
-				EF249DC51B8D8E920012C6F2 /* NSString+MD5String.m */,
-				EF249DC61B8D8E920012C6F2 /* XMLDictionary.h */,
-				EF249DC71B8D8E920012C6F2 /* XMLDictionary.m */,
+				EF249DDA1B8D8F220012C6F2 /* AMAbstractResponse.h */,
+				EF249DDB1B8D8F220012C6F2 /* AMAbstractResponse.m */,
+				EF249DDC1B8D8F220012C6F2 /* AMAPIClient.h */,
+				EF249DDD1B8D8F220012C6F2 /* AMAPICommand.h */,
+				EF249DDE1B8D8F220012C6F2 /* AMAPICommand.m */,
+				EF249DDF1B8D8F220012C6F2 /* AMAPICommandProducer.h */,
+				EF249DE01B8D8F220012C6F2 /* AMAPICommandsFacade.h */,
+				EF249DE11B8D8F220012C6F2 /* AMAPICommandsFacadeImplementation.h */,
+				EF249DE21B8D8F220012C6F2 /* AMAPICommandsFacadeImplementation.m */,
+				EF249DE31B8D8F220012C6F2 /* AMConstants.h */,
+				EF249DE41B8D8F220012C6F2 /* AMConstants.m */,
+				EF249DE51B8D8F220012C6F2 /* AMErrors.strings */,
+				EF249DE61B8D8F220012C6F2 /* AMInitPayMkProducer.h */,
+				EF249DE71B8D8F220012C6F2 /* AMInitPayMkProducer.m */,
+				EF249DE81B8D8F220012C6F2 /* AMInitPayMkStatusProducer.h */,
+				EF249DE91B8D8F220012C6F2 /* AMInitPayMkStatusProducer.m */,
+				EF249DEA1B8D8F220012C6F2 /* AMMerchantCredentials.h */,
+				EF249DEB1B8D8F220012C6F2 /* AMMerchantCredentials.m */,
+				EF249DEC1B8D8F220012C6F2 /* AMPaymentRequest.h */,
+				EF249DED1B8D8F220012C6F2 /* AMPaymentRequest.m */,
+				EF249DEE1B8D8F220012C6F2 /* AMPaymentResponse.h */,
+				EF249DEF1B8D8F220012C6F2 /* AMPaymentResponse.m */,
+				EF249DF01B8D8F220012C6F2 /* AMPaymentStatusRequest.h */,
+				EF249DF11B8D8F220012C6F2 /* AMPaymentStatusRequest.m */,
+				EF249DF21B8D8F220012C6F2 /* AMPaymentStatusResponse.h */,
+				EF249DF31B8D8F220012C6F2 /* AMPaymentStatusResponse.m */,
+				EF249DF41B8D8F220012C6F2 /* AMSecurityUtilities.h */,
+				EF249DF51B8D8F220012C6F2 /* AMSecurityUtilities.m */,
+				EF249DF61B8D8F220012C6F2 /* AMURLSessionAPIImplementation.h */,
+				EF249DF71B8D8F220012C6F2 /* AMURLSessionAPIImplementation.m */,
+				EF249DF81B8D8F220012C6F2 /* ArsenalPayiOsSDK.h */,
+				EF249DF91B8D8F220012C6F2 /* NSDictionary+ContainsKey.h */,
+				EF249DFA1B8D8F220012C6F2 /* NSDictionary+ContainsKey.m */,
+				EF249DFB1B8D8F220012C6F2 /* NSString+MD5String.h */,
+				EF249DFC1B8D8F220012C6F2 /* NSString+MD5String.m */,
+				EF249DFD1B8D8F230012C6F2 /* XMLDictionary.h */,
+				EF249DFE1B8D8F230012C6F2 /* XMLDictionary.m */,
 			);
-			name = Framework;
+			name = APFramework;
 			sourceTree = "<group>";
 		};
 		EFA243D21B8A9B570017C137 = {
@@ -201,7 +201,7 @@
 		EFA243DD1B8A9B570017C137 /* AMFramework */ = {
 			isa = PBXGroup;
 			children = (
-				EF249DD91B8D8E9E0012C6F2 /* Framework */,
+				EF249DD91B8D8E9E0012C6F2 /* APFramework */,
 				EF249D6B1B8D81510012C6F2 /* Example */,
 				EFA243DE1B8A9B570017C137 /* Supporting Files */,
 			);
@@ -321,7 +321,7 @@
 				EFA243EA1B8A9B570017C137 /* Main.storyboard in Resources */,
 				EFA243EF1B8A9B570017C137 /* LaunchScreen.xib in Resources */,
 				EFA243EC1B8A9B570017C137 /* Images.xcassets in Resources */,
-				EF249DCC1B8D8E920012C6F2 /* AMErrors.strings in Resources */,
+				EF249E031B8D8F230012C6F2 /* AMErrors.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,25 +339,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF249DCD1B8D8E920012C6F2 /* AMInitPayMkProducer.m in Sources */,
-				EF249DD11B8D8E920012C6F2 /* AMPaymentResponse.m in Sources */,
-				EF249DC91B8D8E920012C6F2 /* AMAPICommand.m in Sources */,
-				EF249DCE1B8D8E920012C6F2 /* AMInitPayMkStatusProducer.m in Sources */,
-				EF249DCB1B8D8E920012C6F2 /* AMConstants.m in Sources */,
-				EF249DD81B8D8E920012C6F2 /* XMLDictionary.m in Sources */,
-				EF249DD01B8D8E920012C6F2 /* AMPaymentRequest.m in Sources */,
-				EF249DC81B8D8E920012C6F2 /* AMAbstractResponse.m in Sources */,
-				EF249DD71B8D8E920012C6F2 /* NSString+MD5String.m in Sources */,
-				EF249DD31B8D8E920012C6F2 /* AMPaymentStatusResponse.m in Sources */,
+				EF249E061B8D8F230012C6F2 /* AMMerchantCredentials.m in Sources */,
+				EF249DFF1B8D8F230012C6F2 /* AMAbstractResponse.m in Sources */,
+				EF249E071B8D8F230012C6F2 /* AMPaymentRequest.m in Sources */,
+				EF249E0D1B8D8F230012C6F2 /* NSDictionary+ContainsKey.m in Sources */,
+				EF249E021B8D8F230012C6F2 /* AMConstants.m in Sources */,
+				EF249E001B8D8F230012C6F2 /* AMAPICommand.m in Sources */,
+				EF249E0F1B8D8F230012C6F2 /* XMLDictionary.m in Sources */,
+				EF249E041B8D8F230012C6F2 /* AMInitPayMkProducer.m in Sources */,
 				EFA243E71B8A9B570017C137 /* ViewController.m in Sources */,
 				EFA243E41B8A9B570017C137 /* AppDelegate.m in Sources */,
-				EF249DCA1B8D8E920012C6F2 /* AMAPICommandsFacadeImplementation.m in Sources */,
-				EF249DD21B8D8E920012C6F2 /* AMPaymentStatusRequest.m in Sources */,
-				EF249DCF1B8D8E920012C6F2 /* AMMerchantCredentials.m in Sources */,
-				EF249DD41B8D8E920012C6F2 /* AMSecurityUtilities.m in Sources */,
+				EF249E091B8D8F230012C6F2 /* AMPaymentStatusRequest.m in Sources */,
+				EF249E0E1B8D8F230012C6F2 /* NSString+MD5String.m in Sources */,
+				EF249E081B8D8F230012C6F2 /* AMPaymentResponse.m in Sources */,
 				EFA243E11B8A9B570017C137 /* main.m in Sources */,
-				EF249DD51B8D8E920012C6F2 /* AMURLSessionAPIImplementation.m in Sources */,
-				EF249DD61B8D8E920012C6F2 /* NSDictionary+ContainsKey.m in Sources */,
+				EF249E0A1B8D8F230012C6F2 /* AMPaymentStatusResponse.m in Sources */,
+				EF249E0B1B8D8F230012C6F2 /* AMSecurityUtilities.m in Sources */,
+				EF249E011B8D8F230012C6F2 /* AMAPICommandsFacadeImplementation.m in Sources */,
+				EF249E051B8D8F230012C6F2 /* AMInitPayMkStatusProducer.m in Sources */,
+				EF249E0C1B8D8F230012C6F2 /* AMURLSessionAPIImplementation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
