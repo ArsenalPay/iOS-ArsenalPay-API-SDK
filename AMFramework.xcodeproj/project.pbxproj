@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF6DBEC41B8B06B200E8F055 /* AMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244171B8ABB5A0017C137 /* AMConstants.m */; };
+		EF6DBEC71B8BF37600E8F055 /* NSDictionary+ContainsKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBEC61B8BF37600E8F055 /* NSDictionary+ContainsKey.m */; };
+		EF6DBEC91B8C3F0100E8F055 /* AMErrors.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF6DBEC81B8C3F0100E8F055 /* AMErrors.strings */; };
+		EF6DBECA1B8C4B3D00E8F055 /* AMURLSessionAPIImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244521B8AF77E0017C137 /* AMURLSessionAPIImplementation.m */; };
+		EF6DBECB1B8C4B5200E8F055 /* AMAPICommandsFacadeImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244421B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.m */; };
+		EF6DBECC1B8C4B5500E8F055 /* AMAbstractResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244351B8AF0DF0017C137 /* AMAbstractResponse.m */; };
+		EF6DBECD1B8C4B5800E8F055 /* AMPaymentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244381B8AF1880017C137 /* AMPaymentResponse.m */; };
+		EF6DBECE1B8C4B5A00E8F055 /* AMPaymentStatusResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2443B1B8AF2700017C137 /* AMPaymentStatusResponse.m */; };
+		EF6DBED21B8D365E00E8F055 /* AMResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBED11B8D365E00E8F055 /* AMResponseTests.m */; };
+		EF6DBED51B8D38FE00E8F055 /* AMAPIProducersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBED41B8D38FE00E8F055 /* AMAPIProducersTest.m */; };
+		EF6DBED81B8D4A9900E8F055 /* AMAPIClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBED71B8D4A9900E8F055 /* AMAPIClientTests.m */; };
+		EF6DBEDB1B8D4C3800E8F055 /* AMAPICommandsFacadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6DBEDA1B8D4C3800E8F055 /* AMAPICommandsFacadeTests.m */; };
+		EFA243E11B8A9B570017C137 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA243E01B8A9B570017C137 /* main.m */; };
+		EFA243E41B8A9B570017C137 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA243E31B8A9B570017C137 /* AppDelegate.m */; };
+		EFA243E71B8A9B570017C137 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA243E61B8A9B570017C137 /* ViewController.m */; };
+		EFA243EA1B8A9B570017C137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA243E81B8A9B570017C137 /* Main.storyboard */; };
+		EFA243EC1B8A9B570017C137 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA243EB1B8A9B570017C137 /* Images.xcassets */; };
+		EFA243EF1B8A9B570017C137 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA243ED1B8A9B570017C137 /* LaunchScreen.xib */; };
+		EFA2440A1B8AA2620017C137 /* AMAPICommand.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244091B8AA2620017C137 /* AMAPICommand.m */; };
+		EFA2440D1B8AAF700017C137 /* AMAPICommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2440C1B8AAF700017C137 /* AMAPICommandTests.m */; };
+		EFA2440E1B8AB0700017C137 /* AMAPICommand.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244091B8AA2620017C137 /* AMAPICommand.m */; };
+		EFA244141B8ABAD70017C137 /* AMInitPayMkProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244131B8ABAD70017C137 /* AMInitPayMkProducer.m */; };
+		EFA244181B8ABB5A0017C137 /* AMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244171B8ABB5A0017C137 /* AMConstants.m */; };
+		EFA2441C1B8AC03F0017C137 /* AMMerchantCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2441B1B8AC03F0017C137 /* AMMerchantCredentials.m */; };
+		EFA244231B8AC0E30017C137 /* AMPaymentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244221B8AC0E30017C137 /* AMPaymentRequest.m */; };
+		EFA244261B8AD5420017C137 /* NSString+MD5String.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244251B8AD5420017C137 /* NSString+MD5String.m */; };
+		EFA2442B1B8ADBC40017C137 /* AMSecurityUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2442A1B8ADBC40017C137 /* AMSecurityUtilities.m */; };
+		EFA2442F1B8AE63E0017C137 /* AMPaymentStatusRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2442E1B8AE63E0017C137 /* AMPaymentStatusRequest.m */; };
+		EFA244321B8AE6AD0017C137 /* AMInitPayMkStatusProducer.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244311B8AE6AD0017C137 /* AMInitPayMkStatusProducer.m */; };
+		EFA244361B8AF0DF0017C137 /* AMAbstractResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244351B8AF0DF0017C137 /* AMAbstractResponse.m */; };
+		EFA244391B8AF1880017C137 /* AMPaymentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244381B8AF1880017C137 /* AMPaymentResponse.m */; };
+		EFA2443C1B8AF2700017C137 /* AMPaymentStatusResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2443B1B8AF2700017C137 /* AMPaymentStatusResponse.m */; };
+		EFA244431B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244421B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.m */; };
+		EFA244531B8AF77E0017C137 /* AMURLSessionAPIImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244521B8AF77E0017C137 /* AMURLSessionAPIImplementation.m */; };
+		EFA244571B8B048A0017C137 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA244561B8B048A0017C137 /* XMLDictionary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFA243F51B8A9B580017C137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA243D31B8A9B570017C137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFA243DA1B8A9B570017C137;
+			remoteInfo = AMFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF6066101B8D7D7300186BC9 /* ArsenalPayiOsSDK.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc.preprocessed; fileEncoding = 4; path = ArsenalPayiOsSDK.h; sourceTree = "<group>"; };
+		EF6DBEC51B8BF37600E8F055 /* NSDictionary+ContainsKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ContainsKey.h"; sourceTree = "<group>"; };
+		EF6DBEC61B8BF37600E8F055 /* NSDictionary+ContainsKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ContainsKey.m"; sourceTree = "<group>"; };
+		EF6DBEC81B8C3F0100E8F055 /* AMErrors.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = AMErrors.strings; sourceTree = "<group>"; };
+		EF6DBED11B8D365E00E8F055 /* AMResponseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMResponseTests.m; sourceTree = "<group>"; };
+		EF6DBED41B8D38FE00E8F055 /* AMAPIProducersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPIProducersTest.m; sourceTree = "<group>"; };
+		EF6DBED71B8D4A9900E8F055 /* AMAPIClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPIClientTests.m; sourceTree = "<group>"; };
+		EF6DBEDA1B8D4C3800E8F055 /* AMAPICommandsFacadeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPICommandsFacadeTests.m; sourceTree = "<group>"; };
+		EFA243DB1B8A9B570017C137 /* AMFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA243DF1B8A9B570017C137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA243E01B8A9B570017C137 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFA243E21B8A9B570017C137 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFA243E31B8A9B570017C137 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFA243E51B8A9B570017C137 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFA243E61B8A9B570017C137 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFA243E91B8A9B570017C137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFA243EB1B8A9B570017C137 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFA243EE1B8A9B570017C137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFA243F41B8A9B580017C137 /* AMFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA243F91B8A9B580017C137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA244081B8AA2620017C137 /* AMAPICommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPICommand.h; sourceTree = "<group>"; };
+		EFA244091B8AA2620017C137 /* AMAPICommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPICommand.m; sourceTree = "<group>"; };
+		EFA2440C1B8AAF700017C137 /* AMAPICommandTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPICommandTests.m; sourceTree = "<group>"; };
+		EFA2440F1B8AB9F40017C137 /* AMAPICommandProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPICommandProducer.h; sourceTree = "<group>"; };
+		EFA244121B8ABAD70017C137 /* AMInitPayMkProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMInitPayMkProducer.h; sourceTree = "<group>"; };
+		EFA244131B8ABAD70017C137 /* AMInitPayMkProducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMInitPayMkProducer.m; sourceTree = "<group>"; };
+		EFA244161B8ABB5A0017C137 /* AMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMConstants.h; sourceTree = "<group>"; };
+		EFA244171B8ABB5A0017C137 /* AMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMConstants.m; sourceTree = "<group>"; };
+		EFA2441A1B8AC03F0017C137 /* AMMerchantCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMerchantCredentials.h; sourceTree = "<group>"; };
+		EFA2441B1B8AC03F0017C137 /* AMMerchantCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMMerchantCredentials.m; sourceTree = "<group>"; };
+		EFA244211B8AC0E30017C137 /* AMPaymentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPaymentRequest.h; sourceTree = "<group>"; };
+		EFA244221B8AC0E30017C137 /* AMPaymentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPaymentRequest.m; sourceTree = "<group>"; };
+		EFA244241B8AD5420017C137 /* NSString+MD5String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5String.h"; sourceTree = "<group>"; };
+		EFA244251B8AD5420017C137 /* NSString+MD5String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5String.m"; sourceTree = "<group>"; };
+		EFA244291B8ADBC40017C137 /* AMSecurityUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSecurityUtilities.h; sourceTree = "<group>"; };
+		EFA2442A1B8ADBC40017C137 /* AMSecurityUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSecurityUtilities.m; sourceTree = "<group>"; };
+		EFA2442D1B8AE63E0017C137 /* AMPaymentStatusRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPaymentStatusRequest.h; sourceTree = "<group>"; };
+		EFA2442E1B8AE63E0017C137 /* AMPaymentStatusRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPaymentStatusRequest.m; sourceTree = "<group>"; };
+		EFA244301B8AE6AD0017C137 /* AMInitPayMkStatusProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMInitPayMkStatusProducer.h; sourceTree = "<group>"; };
+		EFA244311B8AE6AD0017C137 /* AMInitPayMkStatusProducer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMInitPayMkStatusProducer.m; sourceTree = "<group>"; };
+		EFA244341B8AF0DF0017C137 /* AMAbstractResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAbstractResponse.h; sourceTree = "<group>"; };
+		EFA244351B8AF0DF0017C137 /* AMAbstractResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAbstractResponse.m; sourceTree = "<group>"; };
+		EFA244371B8AF1880017C137 /* AMPaymentResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPaymentResponse.h; sourceTree = "<group>"; };
+		EFA244381B8AF1880017C137 /* AMPaymentResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPaymentResponse.m; sourceTree = "<group>"; };
+		EFA2443A1B8AF2700017C137 /* AMPaymentStatusResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPaymentStatusResponse.h; sourceTree = "<group>"; };
+		EFA2443B1B8AF2700017C137 /* AMPaymentStatusResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPaymentStatusResponse.m; sourceTree = "<group>"; };
+		EFA2443E1B8AF31F0017C137 /* AMAPICommandsFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPICommandsFacade.h; sourceTree = "<group>"; };
+		EFA244411B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPICommandsFacadeImplementation.h; sourceTree = "<group>"; };
+		EFA244421B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAPICommandsFacadeImplementation.m; sourceTree = "<group>"; };
+		EFA244451B8AF68D0017C137 /* AMAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAPIClient.h; sourceTree = "<group>"; };
+		EFA244511B8AF77E0017C137 /* AMURLSessionAPIImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMURLSessionAPIImplementation.h; sourceTree = "<group>"; };
+		EFA244521B8AF77E0017C137 /* AMURLSessionAPIImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMURLSessionAPIImplementation.m; sourceTree = "<group>"; };
+		EFA244551B8B048A0017C137 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		EFA244561B8B048A0017C137 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFA243D81B8A9B570017C137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA243F11B8A9B580017C137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF249D6B1B8D81510012C6F2 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				EFA243E21B8A9B570017C137 /* AppDelegate.h */,
+				EFA243E31B8A9B570017C137 /* AppDelegate.m */,
+				EFA243E51B8A9B570017C137 /* ViewController.h */,
+				EFA243E61B8A9B570017C137 /* ViewController.m */,
+				EFA243E81B8A9B570017C137 /* Main.storyboard */,
+				EFA243EB1B8A9B570017C137 /* Images.xcassets */,
+				EFA243ED1B8A9B570017C137 /* LaunchScreen.xib */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		EFA243D21B8A9B570017C137 = {
+			isa = PBXGroup;
+			children = (
+				EFA243DD1B8A9B570017C137 /* AMFramework */,
+				EFA243F71B8A9B580017C137 /* AMFrameworkTests */,
+				EFA243DC1B8A9B570017C137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFA243DC1B8A9B570017C137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFA243DB1B8A9B570017C137 /* AMFramework.app */,
+				EFA243F41B8A9B580017C137 /* AMFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFA243DD1B8A9B570017C137 /* AMFramework */ = {
+			isa = PBXGroup;
+			children = (
+				EF249D6B1B8D81510012C6F2 /* Example */,
+				EFA244041B8A9B620017C137 /* Framework */,
+				EFA243DE1B8A9B570017C137 /* Supporting Files */,
+			);
+			path = AMFramework;
+			sourceTree = "<group>";
+		};
+		EFA243DE1B8A9B570017C137 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFA243DF1B8A9B570017C137 /* Info.plist */,
+				EFA243E01B8A9B570017C137 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFA243F71B8A9B580017C137 /* AMFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6DBED11B8D365E00E8F055 /* AMResponseTests.m */,
+				EFA2440C1B8AAF700017C137 /* AMAPICommandTests.m */,
+				EF6DBED41B8D38FE00E8F055 /* AMAPIProducersTest.m */,
+				EF6DBED71B8D4A9900E8F055 /* AMAPIClientTests.m */,
+				EF6DBEDA1B8D4C3800E8F055 /* AMAPICommandsFacadeTests.m */,
+				EFA243F81B8A9B580017C137 /* Supporting Files */,
+			);
+			path = AMFrameworkTests;
+			sourceTree = "<group>";
+		};
+		EFA243F81B8A9B580017C137 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFA243F91B8A9B580017C137 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFA244041B8A9B620017C137 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				EFA244051B8A9B6A0017C137 /* Classes */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		EFA244051B8A9B6A0017C137 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF6066101B8D7D7300186BC9 /* ArsenalPayiOsSDK.h */,
+				EFA244541B8B047C0017C137 /* 3DParty */,
+				EFA244061B8AA22F0017C137 /* Client */,
+				EFA2443D1B8AF3030017C137 /* Facade */,
+				EFA244331B8AF0D10017C137 /* Response */,
+				EFA2442C1B8AE5850017C137 /* Utilities */,
+				EFA244201B8AC0AA0017C137 /* Request */,
+				EFA244191B8AC0220017C137 /* MerchantCredentials */,
+				EFA244151B8ABB4D0017C137 /* Constants */,
+				EFA244071B8AA23A0017C137 /* Command */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		EFA244061B8AA22F0017C137 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				EFA244451B8AF68D0017C137 /* AMAPIClient.h */,
+				EFA244511B8AF77E0017C137 /* AMURLSessionAPIImplementation.h */,
+				EFA244521B8AF77E0017C137 /* AMURLSessionAPIImplementation.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		EFA244071B8AA23A0017C137 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				EFA244081B8AA2620017C137 /* AMAPICommand.h */,
+				EFA244091B8AA2620017C137 /* AMAPICommand.m */,
+				EFA2440F1B8AB9F40017C137 /* AMAPICommandProducer.h */,
+				EFA244121B8ABAD70017C137 /* AMInitPayMkProducer.h */,
+				EFA244131B8ABAD70017C137 /* AMInitPayMkProducer.m */,
+				EFA244301B8AE6AD0017C137 /* AMInitPayMkStatusProducer.h */,
+				EFA244311B8AE6AD0017C137 /* AMInitPayMkStatusProducer.m */,
+			);
+			name = Command;
+			sourceTree = "<group>";
+		};
+		EFA244151B8ABB4D0017C137 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EFA244161B8ABB5A0017C137 /* AMConstants.h */,
+				EFA244171B8ABB5A0017C137 /* AMConstants.m */,
+				EF6DBEC81B8C3F0100E8F055 /* AMErrors.strings */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		EFA244191B8AC0220017C137 /* MerchantCredentials */ = {
+			isa = PBXGroup;
+			children = (
+				EFA2441A1B8AC03F0017C137 /* AMMerchantCredentials.h */,
+				EFA2441B1B8AC03F0017C137 /* AMMerchantCredentials.m */,
+			);
+			name = MerchantCredentials;
+			sourceTree = "<group>";
+		};
+		EFA244201B8AC0AA0017C137 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				EFA244211B8AC0E30017C137 /* AMPaymentRequest.h */,
+				EFA244221B8AC0E30017C137 /* AMPaymentRequest.m */,
+				EFA2442D1B8AE63E0017C137 /* AMPaymentStatusRequest.h */,
+				EFA2442E1B8AE63E0017C137 /* AMPaymentStatusRequest.m */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		EFA2442C1B8AE5850017C137 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EFA244241B8AD5420017C137 /* NSString+MD5String.h */,
+				EFA244251B8AD5420017C137 /* NSString+MD5String.m */,
+				EFA244291B8ADBC40017C137 /* AMSecurityUtilities.h */,
+				EFA2442A1B8ADBC40017C137 /* AMSecurityUtilities.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		EFA244331B8AF0D10017C137 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				EFA244341B8AF0DF0017C137 /* AMAbstractResponse.h */,
+				EFA244351B8AF0DF0017C137 /* AMAbstractResponse.m */,
+				EFA244371B8AF1880017C137 /* AMPaymentResponse.h */,
+				EFA244381B8AF1880017C137 /* AMPaymentResponse.m */,
+				EFA2443A1B8AF2700017C137 /* AMPaymentStatusResponse.h */,
+				EFA2443B1B8AF2700017C137 /* AMPaymentStatusResponse.m */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+		EFA2443D1B8AF3030017C137 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				EFA2443E1B8AF31F0017C137 /* AMAPICommandsFacade.h */,
+				EFA244411B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.h */,
+				EFA244421B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.m */,
+			);
+			name = Facade;
+			sourceTree = "<group>";
+		};
+		EFA244541B8B047C0017C137 /* 3DParty */ = {
+			isa = PBXGroup;
+			children = (
+				EF6DBEC51B8BF37600E8F055 /* NSDictionary+ContainsKey.h */,
+				EF6DBEC61B8BF37600E8F055 /* NSDictionary+ContainsKey.m */,
+				EFA244551B8B048A0017C137 /* XMLDictionary.h */,
+				EFA244561B8B048A0017C137 /* XMLDictionary.m */,
+			);
+			name = 3DParty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFA243DA1B8A9B570017C137 /* AMFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA243FE1B8A9B580017C137 /* Build configuration list for PBXNativeTarget "AMFramework" */;
+			buildPhases = (
+				EFA243D71B8A9B570017C137 /* Sources */,
+				EFA243D81B8A9B570017C137 /* Frameworks */,
+				EFA243D91B8A9B570017C137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMFramework;
+			productName = AMFramework;
+			productReference = EFA243DB1B8A9B570017C137 /* AMFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFA243F31B8A9B580017C137 /* AMFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA244011B8A9B580017C137 /* Build configuration list for PBXNativeTarget "AMFrameworkTests" */;
+			buildPhases = (
+				EFA243F01B8A9B580017C137 /* Sources */,
+				EFA243F11B8A9B580017C137 /* Frameworks */,
+				EFA243F21B8A9B580017C137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFA243F61B8A9B580017C137 /* PBXTargetDependency */,
+			);
+			name = AMFrameworkTests;
+			productName = AMFrameworkTests;
+			productReference = EFA243F41B8A9B580017C137 /* AMFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFA243D31B8A9B570017C137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Юрий Воскресенский";
+				TargetAttributes = {
+					EFA243DA1B8A9B570017C137 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EFA243F31B8A9B580017C137 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EFA243DA1B8A9B570017C137;
+					};
+				};
+			};
+			buildConfigurationList = EFA243D61B8A9B570017C137 /* Build configuration list for PBXProject "AMFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFA243D21B8A9B570017C137;
+			productRefGroup = EFA243DC1B8A9B570017C137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFA243DA1B8A9B570017C137 /* AMFramework */,
+				EFA243F31B8A9B580017C137 /* AMFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFA243D91B8A9B570017C137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA243EA1B8A9B570017C137 /* Main.storyboard in Resources */,
+				EFA243EF1B8A9B570017C137 /* LaunchScreen.xib in Resources */,
+				EFA243EC1B8A9B570017C137 /* Images.xcassets in Resources */,
+				EF6DBEC91B8C3F0100E8F055 /* AMErrors.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA243F21B8A9B580017C137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFA243D71B8A9B570017C137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA2440A1B8AA2620017C137 /* AMAPICommand.m in Sources */,
+				EFA2442F1B8AE63E0017C137 /* AMPaymentStatusRequest.m in Sources */,
+				EFA244431B8AF34E0017C137 /* AMAPICommandsFacadeImplementation.m in Sources */,
+				EFA244531B8AF77E0017C137 /* AMURLSessionAPIImplementation.m in Sources */,
+				EFA244321B8AE6AD0017C137 /* AMInitPayMkStatusProducer.m in Sources */,
+				EFA244141B8ABAD70017C137 /* AMInitPayMkProducer.m in Sources */,
+				EFA244231B8AC0E30017C137 /* AMPaymentRequest.m in Sources */,
+				EFA243E71B8A9B570017C137 /* ViewController.m in Sources */,
+				EFA243E41B8A9B570017C137 /* AppDelegate.m in Sources */,
+				EF6DBEC71B8BF37600E8F055 /* NSDictionary+ContainsKey.m in Sources */,
+				EFA244391B8AF1880017C137 /* AMPaymentResponse.m in Sources */,
+				EFA2441C1B8AC03F0017C137 /* AMMerchantCredentials.m in Sources */,
+				EFA243E11B8A9B570017C137 /* main.m in Sources */,
+				EFA2443C1B8AF2700017C137 /* AMPaymentStatusResponse.m in Sources */,
+				EFA244361B8AF0DF0017C137 /* AMAbstractResponse.m in Sources */,
+				EFA244261B8AD5420017C137 /* NSString+MD5String.m in Sources */,
+				EFA2442B1B8ADBC40017C137 /* AMSecurityUtilities.m in Sources */,
+				EFA244181B8ABB5A0017C137 /* AMConstants.m in Sources */,
+				EFA244571B8B048A0017C137 /* XMLDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA243F01B8A9B580017C137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6DBED81B8D4A9900E8F055 /* AMAPIClientTests.m in Sources */,
+				EF6DBECC1B8C4B5500E8F055 /* AMAbstractResponse.m in Sources */,
+				EF6DBEDB1B8D4C3800E8F055 /* AMAPICommandsFacadeTests.m in Sources */,
+				EF6DBECD1B8C4B5800E8F055 /* AMPaymentResponse.m in Sources */,
+				EF6DBED51B8D38FE00E8F055 /* AMAPIProducersTest.m in Sources */,
+				EFA2440D1B8AAF700017C137 /* AMAPICommandTests.m in Sources */,
+				EF6DBECA1B8C4B3D00E8F055 /* AMURLSessionAPIImplementation.m in Sources */,
+				EFA2440E1B8AB0700017C137 /* AMAPICommand.m in Sources */,
+				EF6DBECB1B8C4B5200E8F055 /* AMAPICommandsFacadeImplementation.m in Sources */,
+				EF6DBED21B8D365E00E8F055 /* AMResponseTests.m in Sources */,
+				EF6DBECE1B8C4B5A00E8F055 /* AMPaymentStatusResponse.m in Sources */,
+				EF6DBEC41B8B06B200E8F055 /* AMConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFA243F61B8A9B580017C137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFA243DA1B8A9B570017C137 /* AMFramework */;
+			targetProxy = EFA243F51B8A9B580017C137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFA243E81B8A9B570017C137 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFA243E91B8A9B570017C137 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFA243ED1B8A9B570017C137 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFA243EE1B8A9B570017C137 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFA243FC1B8A9B580017C137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFA243FD1B8A9B580017C137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFA243FF1B8A9B580017C137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AMFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFA244001B8A9B580017C137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AMFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFA244021B8A9B580017C137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AMFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMFramework.app/AMFramework";
+			};
+			name = Debug;
+		};
+		EFA244031B8A9B580017C137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AMFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMFramework.app/AMFramework";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFA243D61B8A9B570017C137 /* Build configuration list for PBXProject "AMFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA243FC1B8A9B580017C137 /* Debug */,
+				EFA243FD1B8A9B580017C137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA243FE1B8A9B580017C137 /* Build configuration list for PBXNativeTarget "AMFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA243FF1B8A9B580017C137 /* Debug */,
+				EFA244001B8A9B580017C137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA244011B8A9B580017C137 /* Build configuration list for PBXNativeTarget "AMFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA244021B8A9B580017C137 /* Debug */,
+				EFA244031B8A9B580017C137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFA243D31B8A9B570017C137 /* Project object */;
+}

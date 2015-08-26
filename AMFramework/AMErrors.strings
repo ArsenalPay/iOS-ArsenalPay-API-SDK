@@ -1,0 +1,19 @@
+/* 
+  AMErrors.strings
+  AMFramework
+
+  Created by Юрий Воскресенский on 25.08.15.
+  Copyright (c) 2015 Юрий Воскресенский. All rights reserved.
+*/
+
+"1000" = "Unknown api server error.";
+"1001" = "Unknown api server error.";
+"1002" = "Invalid amount value.";
+"1003" = "Invalid currency value or service doesn't support it.";
+"1004" = "Invalid date format";
+"1005" = "Invalid function or POST body is empty";
+"1006" = "Unknown api server error.";
+"1007" = "Invalid payerId or value doesn't exist.";
+"1008" = "Invalid sign(hashcode).";
+"1009" = "Unable to get payment confirmation from subscriber";
+"1010" = "User sent payment request";
