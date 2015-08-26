@@ -143,6 +143,14 @@
 			name = Example;
 			sourceTree = "<group>";
 		};
+		EF249D6C1B8D8D480012C6F2 /* AMFramework */ = {
+			isa = PBXGroup;
+			children = (
+				EFA244041B8A9B620017C137 /* Framework */,
+			);
+			path = AMFramework;
+			sourceTree = "<group>";
+		};
 		EFA243D21B8A9B570017C137 = {
 			isa = PBXGroup;
 			children = (
@@ -164,8 +172,8 @@
 		EFA243DD1B8A9B570017C137 /* AMFramework */ = {
 			isa = PBXGroup;
 			children = (
+				EF249D6C1B8D8D480012C6F2 /* AMFramework */,
 				EF249D6B1B8D81510012C6F2 /* Example */,
-				EFA244041B8A9B620017C137 /* Framework */,
 				EFA243DE1B8A9B570017C137 /* Supporting Files */,
 			);
 			path = AMFramework;
@@ -207,6 +215,7 @@
 				EFA244051B8A9B6A0017C137 /* Classes */,
 			);
 			name = Framework;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		EFA244051B8A9B6A0017C137 /* Classes */ = {
