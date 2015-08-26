@@ -23,6 +23,7 @@
 {
     if (self.phoneNumberTextField.text.length > 0 && self.recipientTextField.text.length > 0 && self.sumTextField.text.length > 0)
     {
+        [self resignFirstResponder];
         id <AMAPICommandsFacade> apiFacade = [[AMAPICommandsFacadeImplementation alloc] init];
         AMPaymentRequest *request = [[AMPaymentRequest alloc] init];
         request.payerId = [NSNumber numberWithLongLong:[self.phoneNumberTextField.text longLongValue]];
@@ -35,15 +36,20 @@
             if (!error)
             {
                 NSLog(@"requestPayment response: %@", response);
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Success" message:@"Payment completed" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+                [alert show];
             }
             else
             {
+                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:error.localizedDescription delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+                [alert show];
                 NSLog(@"requestPayment error: %@", error.localizedDescription);
             }
         }];
     }
     else
     {
+        [self resignFirstResponder];
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Fill in all the fields" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
         [alert show];
     }
