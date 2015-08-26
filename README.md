@@ -10,7 +10,7 @@ fast simple and seamless integration your Objective-C(iOs) application with proc
 Install
 ----
 
-Clone repo, copy all files within the Framework group to your project. All files require ARC
+Clone repo, copy all files within the AMFramework folder to your project. All files require ARC
 
 
 Usage
