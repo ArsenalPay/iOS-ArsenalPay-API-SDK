@@ -7,6 +7,12 @@ Objective-C(iOs) ArsenalPay API SDK
 Objective-C(iOs) ArsenalPay API SDK is software development kit for 
 fast simple and seamless integration your Objective-C(iOs) application with processing server of ArsenalPay.
 
+Functions of API
+----
+
+- Mobile commerce
+
+
 Install
 ----
 
@@ -38,11 +44,6 @@ Request params
 4) **RecipientID** - Account number of the seller  
 5) **Amount** - 10-15000 RUR  
 6) **Currency** - Code of currency (ISO 4217)  
-
-Functions of API
-----
-
-- Mobile commerce.
 
 Usage
 ----
